@@ -1,6 +1,6 @@
 require File.dirname(__FILE__) + '/spec_helper'
 
-describe "Event" do
+describe Dyno::Event do
   before(:all) do
     @event = Dyno::Event.new
   end
