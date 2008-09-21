@@ -42,12 +42,12 @@ describe Dyno::Parsers::Race07Parser do
       @event.track.should == 'Anderstorp 2007'
     end
 
-    it 'should set the track to "Unknown" if one could not be discerned' do
+    it 'should not set the track if one could not be discerned' do
       event = Dyno::Parsers::Race07Parser.parse_file(
         'spec/fixtures/race07/header_no_track.ini'
       )
 
-      event.track.should == 'Unknown'
+      event.track.should be_nil
     end
 
     it 'should whine loudly if there is no "Header" section' do

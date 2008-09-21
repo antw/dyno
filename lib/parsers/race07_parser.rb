@@ -65,8 +65,6 @@ module Dyno::Parsers
       # Extract the track name from Race/Scene
       if @raw.has_section?('Race') && @raw['Race']['Scene']
         @event.track = @raw['Race']['Scene'].split( '\\' )[-2].gsub( /[_-]+/, ' ' )
-      else
-        @event.track = 'Unknown'
       end
     end
   end
