@@ -7,7 +7,7 @@ module Dyno::Parsers
   #
   # TODO: Remove dependency on inifile and write our own ini parser so that:
   #   * we can extract individual lap information.
-  #   * we don't have to have a file on disk.
+  #   * we don't have to have a results file on disk.
   #
   class Race07Parser
     ##
@@ -35,7 +35,7 @@ module Dyno::Parsers
     #
     def parse
       parse_event!
-      # parse_competitors!
+      parse_competitors!
       @event
     end
 
@@ -66,6 +66,57 @@ module Dyno::Parsers
       if @raw.has_section?('Race') && @raw['Race']['Scene']
         @event.track = @raw['Race']['Scene'].split( '\\' )[-2].gsub( /[_-]+/, ' ' )
       end
+    end
+
+    ##
+    # Extracts information about each of the competitors.
+    #
+    def parse_competitors!
+      finished_competitors = []
+      dnf_competitors      = []
+
+      @raw.sections.each do |section_name|
+        # Competitor sections are named SlotNNN.
+        next unless section_name =~ /Slot\d\d\d/
+
+        values = @raw[section_name]
+
+        competitor = Dyno::Competitor.new(values['Driver'])
+        competitor.vehicle   = values['Vehicle']
+        competitor.laps      = values['Laps'].to_i
+
+        # Some results files have a blank ID.
+        if values['SteamId'] && values['SteamId'] =~ /\d+/
+          competitor.uid = values['SteamId'].to_i
+        end
+
+        best = values['BestLap'].split( /:|\./ )
+        competitor.best_lap = best[1].to_f + ( best[0].to_i * 60 ) + "0.#{best[2]}".to_f
+
+        if values['RaceTime'] == 'DNF'
+          competitor.race_time = 'DNF'
+          dnf_competitors << competitor
+        else
+          time = values['RaceTime'].split( /:|\./ )
+
+          competitor.race_time = time[2].to_f + ( time[1].to_i * 60 ) +
+            ( time[0].to_i * 60 * 60 ) + "0.#{time[3]}".to_f
+
+          finished_competitors << competitor
+        end
+      end
+
+      # Sort finished competitors by their race time, lowest (P1) first.
+      finished_competitors = finished_competitors.sort_by { |c| c.race_time }
+
+      # TODO: Sort DNF competitors inversely by how much of of the race distance they covered.
+
+      # Finally let's assign their finishing positions.
+      competitors = finished_competitors + dnf_competitors
+      competitors.each_with_index { |c, i| c.position = i + 1 }
+
+      # All done!
+      @event.competitors = competitors
     end
   end
 end

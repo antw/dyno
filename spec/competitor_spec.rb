@@ -40,6 +40,19 @@ describe Dyno::Competitor do
     @competitor.should respond_to(:best_lap=)
   end
 
+  it 'should have a +race_distance+ accessor' do
+    pending do
+      @competitor.should respond_to(:race_distance)
+      @competitor.should respond_to(:race_distance=)
+    end
+  end
+
+  it 'should respond_to #dnf?' do
+    pending do
+      @competitor.should respond_to(:dnf)
+    end
+  end
+
   # ----------
   # initialize
 
@@ -64,4 +77,5 @@ describe Dyno::Competitor do
   it 'should require that a name be supplied' do
     lambda { Dyno::Competitor.new }.should raise_error(ArgumentError)
   end
+
 end
