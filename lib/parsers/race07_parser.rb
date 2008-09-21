@@ -113,8 +113,6 @@ module Dyno::Parsers
       # ... and DNF'ed competitors by how many laps they've done.
       dnf_competitors = dnf_competitors.sort_by { |c| c.laps }.reverse!
 
-      # TODO: Sort DNF competitors inversely by how much of of the race distance they covered.
-
       # Finally let's assign their finishing positions.
       competitors = finished_competitors + dnf_competitors
       competitors.each_with_index { |c, i| c.position = i + 1 }
