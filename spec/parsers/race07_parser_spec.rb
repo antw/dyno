@@ -117,6 +117,9 @@ describe Dyno::Parsers::Race07Parser do
 
       event.competitors[3].name.should == 'Corey Ball'
       event.competitors[3].position.should == 4
+
+      event.competitors[4].name.should == 'Reino Lintula'
+      event.competitors[4].position.should == 5
     end
   end
 end

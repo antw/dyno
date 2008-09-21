@@ -81,9 +81,10 @@ module Dyno::Parsers
 
         values = @raw[section_name]
 
-        competitor = Dyno::Competitor.new(values['Driver'])
-        competitor.vehicle   = values['Vehicle']
-        competitor.laps      = values['Laps'].to_i
+        competitor = Dyno::Competitor.new(values['Driver'],
+         :vehicle  => values['Vehicle'],
+         :laps     => values['Laps'].to_i
+        )
 
         # Some results files have a blank ID.
         if values['SteamId'] && values['SteamId'] =~ /\d+/
@@ -108,6 +109,9 @@ module Dyno::Parsers
 
       # Sort finished competitors by their race time, lowest (P1) first.
       finished_competitors = finished_competitors.sort_by { |c| c.race_time }
+
+      # ... and DNF'ed competitors by how many laps they've done.
+      dnf_competitors = dnf_competitors.sort_by { |c| c.laps }.reverse!
 
       # TODO: Sort DNF competitors inversely by how much of of the race distance they covered.
 
