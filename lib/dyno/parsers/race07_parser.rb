@@ -1,4 +1,4 @@
-require 'inifile'
+require 'iniparse'
 
 module Dyno::Parsers
   ##
@@ -16,7 +16,7 @@ module Dyno::Parsers
     # @param [String] filename The path to the results file.
     #
     def self.parse_file( filename )
-      parse( IniFile.load( filename ) )
+      parse( IniParse.open( filename ) )
     end
 
     ##
@@ -75,30 +75,28 @@ module Dyno::Parsers
       finished_competitors = []
       dnf_competitors      = []
 
-      @raw.sections.each do |section_name|
+      @raw.each do |section|
         # Competitor sections are named SlotNNN.
-        next unless section_name =~ /Slot\d\d\d/
+        next unless section.key =~ /Slot\d\d\d/
 
-        values = @raw[section_name]
-
-        competitor = Dyno::Competitor.new(values['Driver'],
-         :vehicle  => values['Vehicle'],
-         :laps     => values['Laps'].to_i
+        competitor = Dyno::Competitor.new(section['Driver'],
+         :vehicle  => section['Vehicle'],
+         :laps     => section['Laps'].to_i
         )
 
         # Some results files have a blank ID.
-        if values['SteamId'] && values['SteamId'] =~ /\d+/
-          competitor.uid = values['SteamId'].to_i
+        if section['SteamId'] && section['SteamId'].kind_of?(Numeric)
+          competitor.uid = section['SteamId']
         end
 
-        best = values['BestLap'].split( /:|\./ )
+        best = section['BestLap'].split( /:|\./ )
         competitor.best_lap = best[1].to_f + ( best[0].to_i * 60 ) + "0.#{best[2]}".to_f
 
-        if values['RaceTime'] == 'DNF'
+        if section['RaceTime'] == 'DNF'
           competitor.race_time = 'DNF'
           dnf_competitors << competitor
         else
-          time = values['RaceTime'].split( /:|\./ )
+          time = section['RaceTime'].split( /:|\./ )
 
           competitor.race_time = time[2].to_f + ( time[1].to_i * 60 ) +
             ( time[0].to_i * 60 * 60 ) + "0.#{time[3]}".to_f
