@@ -10,9 +10,9 @@ module Dyno
 end
 
 %w( competitor event ).each do |file|
-  require File.join( File.dirname(__FILE__), file )
+  require File.join( File.dirname(__FILE__), "dyno", file )
 end
 
-Dir["#{ File.dirname(__FILE__) }/parsers/*_parser.rb"].sort.each do |parser|
+Dir["#{ File.dirname(__FILE__) }/dyno/parsers/*_parser.rb"].sort.each do |parser|
   require parser
 end
