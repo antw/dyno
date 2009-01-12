@@ -6,7 +6,7 @@ require 'spec/rake/spectask'
 # require 'date'
 
 GEM = "dyno"
-DYNO_VERSION = "0.0.1"
+DYNO_VERSION = "0.0.2"
 
 ##############################################################################
 # Packaging & Installation
@@ -28,8 +28,8 @@ spec = Gem::Specification.new do |s|
 
   s.extra_rdoc_files = ['README.markdown', 'MIT-LICENSE', 'TODO']
 
-  # Uncomment this to add a dependency
-  # s.add_dependency "foo"
+  # Dependencies.
+  s.add_dependency "iniparse", ">= 0.2.0"
 
   s.require_path = 'lib'
   s.files = %w(MIT-LICENSE README.markdown Rakefile TODO) + Dir.glob("{lib,spec}/**/*")
