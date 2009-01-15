@@ -13,12 +13,12 @@ begin
     s.email       = 'anthony@ninecraft.com'
     s.homepage    = 'http://github.com/anthonyw/dyno'
 
-    s.extra_rdoc_files = ['README.markdown', 'MIT-LICENSE', 'TODO']
+    s.extra_rdoc_files = ['README.markdown', 'MIT-LICENSE']
 
     # Dependencies.
     s.add_dependency "iniparse", ">= 0.2.0"
 
-    s.files = %w(MIT-LICENSE README.markdown Rakefile TODO VERSION.yml) +
+    s.files = %w(MIT-LICENSE README.markdown Rakefile VERSION.yml) +
               Dir.glob("{lib,spec}/**/*")
   end
 rescue LoadError
