@@ -9,8 +9,8 @@ Gem::Specification.new do |s|
   s.date = %q{2009-01-15}
   s.description = %q{A rubygem for parsing sim-racing results files.}
   s.email = %q{anthony@ninecraft.com}
-  s.extra_rdoc_files = ["README.markdown", "MIT-LICENSE", "TODO"]
-  s.files = ["MIT-LICENSE", "README.markdown", "Rakefile", "TODO", "lib/dyno", "lib/dyno/competitor.rb", "lib/dyno/event.rb", "lib/dyno/parsers", "lib/dyno/parsers/race07_parser.rb", "lib/dyno.rb", "spec/competitor_spec.rb", "spec/event_spec.rb", "spec/fixtures", "spec/fixtures/race07", "spec/fixtures/race07/full.ini", "spec/fixtures/race07/header_no_track.ini", "spec/fixtures/race07/header_only.ini", "spec/fixtures/race07/no_header_section.ini", "spec/fixtures/race07/no_steam_id.ini", "spec/fixtures/race07/readme.markdown", "spec/fixtures/race07/single_driver.ini", "spec/parsers", "spec/parsers/race07_parser_spec.rb", "spec/spec_helper.rb"]
+  s.extra_rdoc_files = ["README.markdown", "MIT-LICENSE"]
+  s.files = ["MIT-LICENSE", "README.markdown", "Rakefile", "VERSION.yml", "lib/dyno", "lib/dyno/competitor.rb", "lib/dyno/event.rb", "lib/dyno/parsers", "lib/dyno/parsers/race07_parser.rb", "lib/dyno.rb", "spec/competitor_spec.rb", "spec/event_spec.rb", "spec/fixtures", "spec/fixtures/race07", "spec/fixtures/race07/full.ini", "spec/fixtures/race07/header_no_track.ini", "spec/fixtures/race07/header_only.ini", "spec/fixtures/race07/no_header_section.ini", "spec/fixtures/race07/no_steam_id.ini", "spec/fixtures/race07/readme.markdown", "spec/fixtures/race07/single_driver.ini", "spec/parsers", "spec/parsers/race07_parser_spec.rb", "spec/spec_helper.rb"]
   s.has_rdoc = true
   s.homepage = %q{http://github.com/anthonyw/dyno}
   s.require_paths = ["lib"]
