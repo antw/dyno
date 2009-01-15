@@ -89,8 +89,7 @@ module Dyno::Parsers
           competitor.uid = section['SteamId']
         end
 
-        best = section['BestLap'].split( /:|\./ )
-        competitor.best_lap = best[1].to_f + ( best[0].to_i * 60 ) + "0.#{best[2]}".to_f
+        competitor.best_lap = lap_time_to_float(section['BestLap'])
 
         if section['RaceTime'] == 'DNF'
           competitor.race_time = 'DNF'
@@ -117,6 +116,12 @@ module Dyno::Parsers
 
       # All done!
       @event.competitors = competitors
+    end
+
+    # Converts a lap time (in the format of M:SS:SSS) to a float.
+    def lap_time_to_float(time)
+      time = time.split( /:|\./ )
+      time[1].to_f + ( time[0].to_i * 60 ) + "0.#{time[2]}".to_f
     end
   end
 end
