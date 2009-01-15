@@ -89,7 +89,13 @@ module Dyno::Parsers
           competitor.uid = section['SteamId']
         end
 
+        # Sort out the competitors lap times.
         competitor.best_lap = lap_time_to_float(section['BestLap'])
+
+        competitor.lap_times = section['Lap'].map do |lap|
+          lap = lap.gsub(/\((.*)\)/, '\1')
+          lap_time_to_float(lap.split(',').last.strip)
+        end
 
         if section['RaceTime'] == 'DNF'
           competitor.race_time = 'DNF'
