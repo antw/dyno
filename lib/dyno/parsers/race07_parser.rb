@@ -91,10 +91,8 @@ module Dyno::Parsers
           lap_time_to_float(lap.split(',').last.strip)
         end
 
-        if section['RaceTime'] == 'DNF'
-          competitor.race_time = 0
-          dnf_competitors << competitor
-        elsif section['RaceTime'] == 'DQ'
+        if section['RaceTime'] =~ /D(NF|S?Q)/
+          $1 == 'NF' ? competitor.dnf! : competitor.dsq!
           competitor.race_time = 0
           dnf_competitors << competitor
         else

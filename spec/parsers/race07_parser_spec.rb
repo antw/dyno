@@ -139,5 +139,17 @@ describe Dyno::Parsers::Race07Parser do
       event.competitors[4].name.should == 'Reino Lintula'
       event.competitors[4].position.should == 5
     end
+
+    it 'should set a competitor as "did not finish" when necessary' do
+      Dyno::Parsers::Race07Parser.parse_file(
+        'spec/fixtures/race07/single_driver_dnf.ini'
+      ).competitors[0].should be_dnf
+    end
+
+    it 'should set a competitor as "disqualified" when necessary' do
+      Dyno::Parsers::Race07Parser.parse_file(
+        'spec/fixtures/race07/single_driver_dsq.ini'
+      ).competitors[0].should be_dsq
+    end
   end
 end
