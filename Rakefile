@@ -22,12 +22,13 @@ begin
               Dir.glob("{lib,spec}/**/*")
   end
 rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+  puts 'Jeweler not available. Install it with: sudo gem install ' +
+       'technicalpickles-jeweler -s http://gems.github.com'
 end
 
-################################################################################
+##############################################################################
 # rSpec & rcov
-################################################################################
+##############################################################################
 
 desc "Run all examples"
 Spec::Rake::SpecTask.new('spec') do |t|
