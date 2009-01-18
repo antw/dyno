@@ -1,5 +1,3 @@
-require 'iniparse'
-
 module Dyno::Parsers
   ##
   # Parses a Race 07 results file (which appears to be some variation of the

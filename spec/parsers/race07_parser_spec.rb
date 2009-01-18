@@ -25,7 +25,7 @@ describe Dyno::Parsers::Race07Parser do
     end
 
     it 'should set the game' do
-      @event.game.should == 'Race 07'
+      @event.game.should == 'RACE 07'
     end
 
     it 'should correctly set the game version' do

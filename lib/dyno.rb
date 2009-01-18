@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'time'
+require 'iniparse'
 
 module Dyno
   # Base exception class.
@@ -13,6 +14,6 @@ end
   require File.join( File.dirname(__FILE__), "dyno", file )
 end
 
-Dir["#{ File.dirname(__FILE__) }/dyno/parsers/*_parser.rb"].sort.each do |parser|
-  require parser
-end
+# Parsers
+require File.join( File.dirname(__FILE__), "dyno", "parsers", "race07_parser" )
+require File.join( File.dirname(__FILE__), "dyno", "parsers", "gtr2_parser" )
