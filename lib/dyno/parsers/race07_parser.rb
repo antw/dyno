@@ -5,10 +5,6 @@ module Dyno::Parsers
   # Parses a Race 07 results file (which appears to be some variation of the
   # ini format).
   #
-  # TODO: Remove dependency on inifile and write our own ini parser so that:
-  #   * we can extract individual lap information.
-  #   * we don't have to have a results file on disk.
-  #
   class Race07Parser
     ##
     # Takes a file path and parses it.
@@ -20,10 +16,10 @@ module Dyno::Parsers
     end
 
     ##
-    # Takes an IniFile instance, parses the contents, and returns a
+    # Takes an IniParse::Document instance, parses the contents, and returns a
     # Dyno::Event containing your results.
     #
-    # @param  [IniFile] results The results.
+    # @param  [IniParse::Document] results The results.
     # @return [Dyno::Event]
     #
     def self.parse( results )
@@ -44,9 +40,9 @@ module Dyno::Parsers
     #######
 
     ##
-    # Takes an IniFile instance and parses the contents.
+    # Takes an IniParse::Document instance and parses the contents.
     #
-    # @param  [IniFile] results The results.
+    # @param [IniParse::Document] results The results.
     #
     def initialize( results )
       @raw = results
@@ -58,7 +54,7 @@ module Dyno::Parsers
     def parse_event!
       raise Dyno::MalformedInputError unless @raw.has_section?('Header')
 
-      @event = Dyno::Event.new( :game => 'Race 07' )
+      @event = Dyno::Event.new( :game => @raw['Header']['Game'] )
       @event.time = Time.parse( @raw['Header']['TimeString'] )
       @event.game_version = @raw['Header']['Version']
 
@@ -98,7 +94,10 @@ module Dyno::Parsers
         end
 
         if section['RaceTime'] == 'DNF'
-          competitor.race_time = 'DNF'
+          competitor.race_time = 0
+          dnf_competitors << competitor
+        elsif section['RaceTime'] == 'DQ'
+          competitor.race_time = 0
           dnf_competitors << competitor
         else
           time = section['RaceTime'].split( /:|\./ )
@@ -111,7 +110,9 @@ module Dyno::Parsers
       end
 
       # Sort finished competitors by their race time, lowest (P1) first.
-      finished_competitors = finished_competitors.sort_by { |c| c.race_time }
+      finished_competitors = finished_competitors.sort_by do |c|
+        [ - c.laps, c.race_time ]
+      end
 
       # ... and DNF'ed competitors by how many laps they've done.
       dnf_competitors = dnf_competitors.sort_by { |c| c.laps }.reverse!
