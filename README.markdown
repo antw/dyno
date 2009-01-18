@@ -3,17 +3,17 @@ dyno
 
 > _A dynamometer or "dyno" for short, is a machine used to measure torque and
 > rotational speed (rpm) from which power produced by an engine, motor or
-> other rotating prime mover can be calculated._
+> other rotating prime mover can be calculated. ([Wikipedia][dyno-wp])_
 
 In this context, however, Dyno is a pure Ruby library for parsing sim-racing
 result files, soon to be used on the upcoming Torque sim-racing app.
 
 Dyno presently supports files spat out by a number of games:
 
-* `Race07Parser` parses results from RACE 07, GTR: Evolution, and
+* **Race07Parser** parses results from RACE 07, GTR: Evolution, and
   STCC: The Game
-* `GTR2Parser` parses results from GTR2.
-* `RFactorParser` parses results from rFactor (and mods), and ARCA (coming
+* **GTR2Parser** parses results from GTR2.
+* **RFactorParser** parses results from rFactor (and mods), and ARCA (coming
   very soon).
 
 Dyno requires the iniparse gem (available via `gem install iniparse` or on
@@ -65,4 +65,5 @@ Dyno is distributed under the MIT/X11 License.
 > FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 > IN THE SOFTWARE.
 
+[dyno-wp]:  http://en.wikipedia.org/wiki/Dynamometer "Wikipedia"
 [iniparse]: http://github.com/anthonyw/iniparse "IniParse on GitHub"
