@@ -6,7 +6,7 @@ module Dyno::Parsers
     def self.parse_file( filename )
       # GTR2 files start with a line which isn't valid INI; remove it.
       parse( IniParse.parse(
-        File.read( filename ).split("\n")[1..-1].join("\n")
+        File.read( filename ).sub!(/^.*\n/, '')
       ) )
     end
   end
