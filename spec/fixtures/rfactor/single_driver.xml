@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>RACEDEPARTMENT.COM EU 2</ServerName>
+<PlayerFile>DedicatedServer</PlayerFile>
+<DateTime>1229826153</DateTime>
+<TimeString>2008/12/21 03:22:33</TimeString>
+<Mod>JF3_2007.rfm</Mod>
+<Season></Season>
+<TrackVenue>Suzuka Circuit</TrackVenue>
+<TrackCourse>Suzuka-2005</TrackCourse>
+<TrackEvent>Japanese Grand Prix - 2005</TrackEvent>
+<TrackLength>5834.1</TrackLength>
+<GameVersion>1.255</GameVersion>
+<Dedicated>1</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<MOTD>RACEDEPARTMENT.COM - blurring the line between real and virtual motorsports</MOTD>
+<RaceLaps>17</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>1</MechFailRate>
+<DamageMult>100</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|JF3_2007</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>11</FreeSettings>
+<FixedUpgrades>1</FixedUpgrades>
+<Race>
+<DateTime>1229892973</DateTime>
+<TimeString>2008/12/21 21:56:13</TimeString>
+<Laps>17</Laps>
+<Minutes>0</Minutes>
+<Stream>
+</Stream>
+<MostLapsCompleted>17</MostLapsCompleted>
+<Driver>
+<Name>Zach Evans</Name>
+<Connected>1</Connected>
+<VehFile>3F306_2007.VEH</VehFile>
+<UpgradeCode>15000000 00000000</UpgradeCode>
+<VehName>Roberto Streit</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>3</CarNumber>
+<TeamName>07-03 INGING MOTORSPORT</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>11</GridPos>
+<Position>1</Position>
+<ClassGridPos>11</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>20</Points>
+<ClassPoints>20</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="3" et="40.0211" s1="52.3539" s2="55.6448" s3="22.5232" fuel="0.843">130.5218</Lap>
+<Lap num="2" p="3" et="170.5430" s1="41.8527" s2="55.3994" s3="22.4502" fuel="0.800">119.7023</Lap>
+<Lap num="3" p="2" et="290.2452" s1="42.3889" s2="55.5416" s3="22.2890" fuel="0.761">120.2195</Lap>
+<Lap num="4" p="2" et="410.4647" s1="41.9483" s2="55.3238" s3="22.3402" fuel="0.718">119.6123</Lap>
+<Lap num="5" p="2" et="530.0770" s1="41.8170" s2="56.1017" s3="22.3548" fuel="0.675">120.2735</Lap>
+<Lap num="6" p="2" et="650.3504" s1="41.8205" s2="55.4031" s3="22.4181" fuel="0.631">119.6417</Lap>
+<Lap num="7" p="2" et="769.9921" s1="41.9503" s2="55.1721" s3="22.5586" fuel="0.588">119.6810</Lap>
+<Lap num="8" p="1" et="889.6732" s1="41.8701" s2="55.3826" s3="22.7209" fuel="0.545">119.9735</Lap>
+<Lap num="9" p="1" et="1009.6467" s1="42.2173" s2="55.1745" s3="22.6508" fuel="0.502">120.0426</Lap>
+<Lap num="10" p="1" et="1129.6892" s1="41.8203" s2="55.3497" s3="22.8513" fuel="0.459">120.0213</Lap>
+<Lap num="11" p="1" et="1249.7104" s1="42.6233" s2="55.4770" s3="22.4602" fuel="0.416">120.5605</Lap>
+<Lap num="12" p="1" et="1370.2710" s1="41.9227" s2="55.1716" s3="22.2617" fuel="0.373">119.3561</Lap>
+<Lap num="13" p="1" et="1489.6271" s1="41.7863" s2="55.9762" s3="22.5324" fuel="0.329">120.2949</Lap>
+<Lap num="14" p="1" et="1609.9219" s1="42.1470" s2="55.9459" s3="22.4242" fuel="0.286">120.5171</Lap>
+<Lap num="15" p="1" et="1730.4390" s1="42.1881" s2="55.5917" s3="22.3778" fuel="0.243">120.1576</Lap>
+<Lap num="16" p="1" et="1850.5966" s1="42.1523" s2="54.9114" s3="22.2956" fuel="0.200">119.3593</Lap>
+<Lap num="17" p="1" et="1969.9559" s1="42.1447" s2="55.2251" s3="22.3365" fuel="0.157">119.7063</Lap>
+<BestLapTime>119.3561</BestLapTime>
+<FinishTime>2049.6411</FinishTime>
+<Laps>17</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="17">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>

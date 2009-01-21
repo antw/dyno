@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>RACEDEPARTMENT.COM EU 2</ServerName>
+<PlayerFile>DedicatedServer</PlayerFile>
+<DateTime>1229826153</DateTime>
+<TimeString>2008/12/21 03:22:33</TimeString>
+<Mod>JF3_2007.rfm</Mod>
+<Season></Season>
+<TrackVenue>Suzuka Circuit</TrackVenue>
+<TrackCourse>Suzuka-2005</TrackCourse>
+<TrackEvent>Japanese Grand Prix - 2005</TrackEvent>
+<TrackLength>5834.1</TrackLength>
+<GameVersion>1.255</GameVersion>
+<Dedicated>1</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<MOTD>RACEDEPARTMENT.COM - blurring the line between real and virtual motorsports</MOTD>
+<RaceLaps>17</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>1</MechFailRate>
+<DamageMult>100</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|JF3_2007</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>11</FreeSettings>
+<FixedUpgrades>1</FixedUpgrades>
+<Race>
+<DateTime>1229892973</DateTime>
+<TimeString>2008/12/21 21:56:13</TimeString>
+<Laps>17</Laps>
+<Minutes>0</Minutes>
+<Stream>
+</Stream>
+<MostLapsCompleted>17</MostLapsCompleted>
+</Race>
+</RaceResults>
+</rFactorXML>

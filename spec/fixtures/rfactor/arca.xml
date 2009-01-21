@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "ARCA Entity">
+]>
+<ARCAXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>RaceDepartment.com</ServerName>
+<PlayerFile>DedicatedServer</PlayerFile>
+<DateTime>1221024547</DateTime>
+<TimeString>2008/09/10 07:29:07</TimeString>
+<Mod>ARCA.rfm</Mod>
+<Season></Season>
+<TrackVenue>Duquoin State Fairgrounds</TrackVenue>
+<TrackCourse>Duquoin State Fairgrounds</TrackCourse>
+<TrackEvent>Southern Illinois 100</TrackEvent>
+<TrackLength>1576.9</TrackLength>
+<GameVersion>1.128</GameVersion>
+<Dedicated>1</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<MOTD>RaceDepartment.com - Win Free Copies of ARCA!</MOTD>
+<RaceLaps>30</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>1</MechFailRate>
+<DamageMult>100</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|ARCA</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>11</FreeSettings>
+<FixedUpgrades>0</FixedUpgrades>
+<Race>
+<DateTime>1221069905</DateTime>
+<TimeString>2008/09/10 20:05:05</TimeString>
+<Laps>30</Laps>
+<Minutes>0</Minutes>
+<Stream>
+<Incident et="71.2">(104) reported contact (0.26) with another vehicle Scarlett Black(47)</Incident>
+<Incident et="71.4">(104) reported contact (0.39) with another vehicle Scarlett Black(47)</Incident>
+<Incident et="71.5">(104) reported contact (0.48) with another vehicle Scarlett Black(47)</Incident>
+<Score et="91.0">Scarlett Black(47) lap=0 point=1 t=-1.000 et=90.939</Score>
+<Score et="91.2">Brooke Conway(50) lap=0 point=1 t=-1.000 et=91.117</Score>
+<Score et="91.4">Zef Christensen(46) lap=0 point=1 t=-1.000 et=91.265</Score>
+<Score et="109.9">Scarlett Black(47) lap=0 point=2 t=-1.000 et=109.841</Score>
+<Score et="110.2">Brooke Conway(50) lap=0 point=2 t=-1.000 et=110.127</Score>
+<Score et="110.8">Zef Christensen(46) lap=0 point=2 t=-1.000 et=110.630</Score>
+<Score et="128.8">Brooke Conway(50) lap=0 point=0 t=-1.000 et=128.695</Score>
+<Score et="128.9">Scarlett Black(47) lap=0 point=0 t=-1.000 et=128.764</Score>
+<Score et="129.7">Zef Christensen(46) lap=0 point=0 t=-1.000 et=129.527</Score>
+<Score et="154.4">Scarlett Black(47) lap=0 point=1 t=-1.000 et=154.253</Score>
+<Score et="154.6">Brooke Conway(50) lap=0 point=1 t=-1.000 et=154.541</Score>
+<Score et="154.7">Zef Christensen(46) lap=0 point=1 t=-1.000 et=154.597</Score>
+<Score et="172.9">Scarlett Black(47) lap=0 point=2 t=-1.000 et=172.831</Score>
+<Score et="173.2">Brooke Conway(50) lap=0 point=2 t=-1.000 et=173.089</Score>
+<Score et="173.3">Zef Christensen(46) lap=0 point=2 t=-1.000 et=173.122</Score>
+<Score et="188.0">Scarlett Black(47) lap=0 point=0 t=-1.000 et=187.915</Score>
+<Penalty et="188.0">Zef Christensen received Stop/Go penalty, 1s, 0laps. Result: penalties=1, 1st=Stop/Go,1s</Penalty>
+<Score et="188.2">Brooke Conway(50) lap=0 point=0 t=-1.000 et=188.141</Score>
+<Score et="188.3">Zef Christensen(46) lap=0 point=0 t=-1.000 et=188.238</Score>
+<Score et="201.5">Scarlett Black(47) lap=0 point=1 t=13.461 et=201.376</Score>
+<Score et="202.0">Zef Christensen(46) lap=0 point=1 t=13.650 et=201.888</Score>
+<Score et="202.1">Brooke Conway(50) lap=0 point=1 t=13.894 et=202.035</Score>
+<Score et="210.6">Scarlett Black(47) lap=0 point=2 t=22.560 et=210.475</Score>
+<Score et="211.2">Zef Christensen(46) lap=0 point=2 t=22.822 et=211.059</Score>
+<Score et="211.5">Brooke Conway(50) lap=0 point=2 t=23.279 et=211.419</Score>
+<Score et="220.1">Scarlett Black(47) lap=1 point=0 t=32.111 et=220.026</Score>
+<Score et="220.8">Zef Christensen(46) lap=1 point=0 t=32.488 et=220.726</Score>
+<Score et="221.1">Brooke Conway(50) lap=1 point=0 t=32.801 et=220.942</Score>
+<Incident et="233.4">Zef Christensen(46) reported contact (0.42) with Track</Incident>
+<Score et="233.4">Scarlett Black(47) lap=1 point=1 t=13.288 et=233.314</Score>
+<Incident et="233.4">Zef Christensen(46) reported contact (0.55) with Track</Incident>
+<Score et="234.4">Brooke Conway(50) lap=1 point=1 t=13.331 et=234.273</Score>
+<Score et="234.6">Zef Christensen(46) lap=1 point=1 t=13.702 et=234.428</Score>
+<Score et="242.5">Scarlett Black(47) lap=1 point=2 t=22.344 et=242.369</Score>
+<Score et="243.6">Brooke Conway(50) lap=1 point=2 t=22.567 et=243.509</Score>
+<Score et="244.0">Zef Christensen(46) lap=1 point=2 t=23.167 et=243.893</Score>
+<Score et="247.9">Yellow flag state 0-&gt;1</Score>
+<Incident et="249.7">Zef Christensen(46) reported contact (0.58) with Immovable</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (1.00) with Immovable</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (1.00) with Immovable</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (0.03) with Track</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (0.06) with Track</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (0.06) with Track</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (0.39) with Immovable</Incident>
+<Incident et="249.7">Zef Christensen(46) reported contact (0.52) with Immovable</Incident>
+<Incident et="249.9">Zef Christensen(46) reported contact (0.19) with Immovable</Incident>
+<Score et="252.1">Scarlett Black(47) lap=2 point=0 t=31.994 et=252.020</Score>
+<Score et="252.1">Yellow flag state 1-&gt;2</Score>
+<Score et="253.0">Brooke Conway(50) lap=2 point=0 t=31.923 et=252.865</Score>
+<Incident et="263.7">Zef Christensen(46) reported contact (0.13) with Immovable</Incident>
+<Chat et="276.0">Zef Christensen: why did i get a stop n go i neve rpassed before the line</Chat>
+<Score et="277.5">Scarlett Black(47) lap=2 point=1 t=25.359 et=277.379</Score>
+<Chat et="277.8">Zef Christensen: lol</Chat>
+<Vote et="302.1">Scarlett Black: /callvote restartweekend</Vote>
+<Sent et="302.1">&quot;restart weekend&quot; proposed by Scarlett Black: 2 votes needed to pass</Sent>
+<Chat et="304.8">Brooke Conway: &quot;DIAMOND&quot; the corner more X LAUS        ull  drop ur lap times</Chat>
+<Sent et="323.4">Brooke Conway has left the game but vehicle has been stored in the garage</Sent>
+<Chat et="353.6">Zef Christensen: well thx for your help chris...guess this track just isnt for me</Chat>
+<Chat et="357.5">Zef Christensen: gl at salem</Chat>
+<Sent et="360.1">Zef Christensen has left the game but vehicle has been stored in the garage</Sent>
+<Sent et="368.9">Scarlett Black has left the game but vehicle has been stored in the garage</Sent>
+</Stream>
+<MostLapsCompleted>2</MostLapsCompleted>
+<Driver>
+<Name>Brooke Conway</Name>
+<Connected>1</Connected>
+<VehFile>47.VEH</VehFile>
+<UpgradeCode>0c000000 00000000</UpgradeCode>
+<VehName>#47 Brewco Racing Fusion</VehName>
+<CarType>ARCA RE/MAX Series 2007</CarType>
+<CarClass>ARCA RE/MAX</CarClass>
+<CarNumber>47</CarNumber>
+<TeamName> 47</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>2</GridPos>
+<Position>2</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>195</Points>
+<ClassPoints>195</ClassPoints>
+<LapRankIncludingDiscos>1</LapRankIncludingDiscos>
+<Lap num="1" p="3" et="188.1406" s1="13.8942" s2="9.3845" s3="9.5224" fuel="0.914">32.8011</Lap>
+<Lap num="2" p="2" et="220.9417" s1="13.3309" s2="9.2365" s3="9.3557" fuel="0.902">31.9231</Lap>
+<BestLapTime>31.9231</BestLapTime>
+<Laps>2</Laps>
+<Pitstops>1</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="2">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Scarlett Black</Name>
+<Connected>1</Connected>
+<VehFile>84.VEH</VehFile>
+<UpgradeCode>0c000000 00000000</UpgradeCode>
+<VehName>#84  Chevy</VehName>
+<CarType>ARCA RE/MAX Series 2007</CarType>
+<CarClass>ARCA RE/MAX</CarClass>
+<CarNumber>84</CarNumber>
+<TeamName> 84</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>1</GridPos>
+<Position>1</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>200</Points>
+<ClassPoints>200</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="1" et="187.9148" s1="13.4612" s2="9.0990" s3="9.5507" fuel="0.941">32.1109</Lap>
+<Lap num="2" p="1" et="220.0257" s1="13.2884" s2="9.0552" s3="9.6502" fuel="0.929">31.9938</Lap>
+<BestLapTime>31.9938</BestLapTime>
+<Laps>2</Laps>
+<Pitstops>1</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="2">PlayerControl</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Zef Christensen</Name>
+<Connected>1</Connected>
+<VehFile>53.VEH</VehFile>
+<UpgradeCode>0c000000 00000000</UpgradeCode>
+<VehName>#53 DMP Racing Chevy</VehName>
+<CarType>ARCA RE/MAX Series 2007</CarType>
+<CarClass>ARCA RE/MAX</CarClass>
+<CarNumber>53</CarNumber>
+<TeamName> 53</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>3</GridPos>
+<Position>3</Position>
+<ClassGridPos>3</ClassGridPos>
+<ClassPosition>3</ClassPosition>
+<Points>190</Points>
+<ClassPoints>190</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="188.2378" s1="13.6500" s2="9.1717" s3="9.6663" fuel="0.937">32.4879</Lap>
+<BestLapTime>32.4879</BestLapTime>
+<Laps>1</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Engine</DNFReason>
+<ControlAndAids startLap="1" endLap="1">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+</Race>
+</RaceResults>
+</ARCAXML>

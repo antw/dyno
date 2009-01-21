@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>RACEDEPARTMENT.COM EU 2</ServerName>
+<PlayerFile>DedicatedServer</PlayerFile>
+<DateTime>1229826153</DateTime>
+<TimeString>2008/12/21 03:22:33</TimeString>
+<Mod>JF3_2007.rfm</Mod>
+<Season></Season>
+<TrackVenue>Suzuka Circuit</TrackVenue>
+<TrackCourse>Suzuka-2005</TrackCourse>
+<TrackEvent>Japanese Grand Prix - 2005</TrackEvent>
+<TrackLength>5834.1</TrackLength>
+<GameVersion>1.255</GameVersion>
+<Dedicated>1</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<MOTD>RACEDEPARTMENT.COM - blurring the line between real and virtual motorsports</MOTD>
+<RaceLaps>17</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>1</MechFailRate>
+<DamageMult>100</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|JF3_2007</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>11</FreeSettings>
+<FixedUpgrades>1</FixedUpgrades>
+<Race>
+<DateTime>1229892973</DateTime>
+<TimeString>2008/12/21 21:56:13</TimeString>
+<Laps>17</Laps>
+<Minutes>0</Minutes>
+<Stream>
+</Stream>
+<MostLapsCompleted>17</MostLapsCompleted>
+<Driver>
+<Name>Tom M. Hall</Name>
+<Connected>1</Connected>
+<VehFile>01F307.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Oliver Jarvis</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>1L</CarNumber>
+<TeamName>07-01 DHG TOM'S</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>1</GridPos>
+<Position>7</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>7</ClassPosition>
+<Points>4</Points>
+<ClassPoints>4</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="1" et="40.0211" s1="46.6755" s2="56.8494" s3="22.6522" fuel="0.957">126.1771</Lap>
+<Lap num="2" p="1" et="166.1982" s1="42.3175" s2="55.4714" s3="22.5711" fuel="0.910">120.3600</Lap>
+<Lap num="3" p="1" et="286.5582" s1="41.4937" s2="55.3808" s3="22.3169" fuel="0.867">119.1914</Lap>
+<Lap num="4" p="1" et="405.7496" s1="42.2348" s2="55.2814" s3="22.5264" fuel="0.827">120.0426</Lap>
+<Lap num="5" p="1" et="525.7922" s1="41.7521" s2="55.2192" s3="22.8702" fuel="0.784">119.8415</Lap>
+<Lap num="6" p="1" et="645.6337" s1="42.1599" s2="55.3416" s3="22.6780" fuel="0.741">120.1795</Lap>
+<Lap num="7" p="1" et="765.8132" s1="42.0617" s2="54.9901" s3="22.6024" fuel="0.698">119.6542</Lap>
+<Lap num="8" p="2" et="885.4674" s1="41.6767" s2="59.4520" s3="23.4462" fuel="0.651">124.5749</Lap>
+<Lap num="9" p="2" et="1010.0424" s1="41.9974" s2="55.6552" s3="22.4668" fuel="0.612">120.1193</Lap>
+<Lap num="10" p="2" et="1130.1616" s1="41.6227" s2="55.1515" s3="23.0518" fuel="0.569">119.8260</Lap>
+<Lap num="11" p="2" et="1249.9877" s1="42.8742" s2="55.1942" s3="22.8089" fuel="0.529">120.8774</Lap>
+<Lap num="12" p="2" et="1370.8651" s1="42.0483" s2="54.9263" s3="22.2972" fuel="0.486">119.2719</Lap>
+<BestLapTime>119.1914</BestLapTime>
+<Laps>12</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Suspension</DNFReason>
+<ControlAndAids startLap="1" endLap="12">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>

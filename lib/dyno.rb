@@ -1,6 +1,7 @@
 require 'rubygems'
 require 'time'
 require 'iniparse'
+require 'libxml'
 
 module Dyno
   # Base exception class.
@@ -10,10 +11,12 @@ module Dyno
   class MalformedInputError < DynoError; end
 end
 
-%w( competitor event ).each do |file|
-  require File.join( File.dirname(__FILE__), "dyno", file )
-end
+dir = File.join( File.dirname(__FILE__), "dyno" )
+
+require File.join( dir, "competitor" )
+require File.join( dir, "event" )
 
 # Parsers
-require File.join( File.dirname(__FILE__), "dyno", "parsers", "race07_parser" )
-require File.join( File.dirname(__FILE__), "dyno", "parsers", "gtr2_parser" )
+require File.join( dir, "parsers", "race07_parser" )
+require File.join( dir, "parsers", "gtr2_parser" )
+require File.join( dir, "parsers", "rfactor_parser" )

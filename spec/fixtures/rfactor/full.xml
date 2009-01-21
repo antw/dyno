@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE rF [
+<!ENTITY rFEnt "rFactor Entity">
+]>
+<rFactorXML version="1.0">
+<RaceResults>
+<Setting>Multiplayer</Setting>
+<ServerName>RACEDEPARTMENT.COM EU 2</ServerName>
+<PlayerFile>DedicatedServer</PlayerFile>
+<DateTime>1229826153</DateTime>
+<TimeString>2008/12/21 03:22:33</TimeString>
+<Mod>JF3_2007.rfm</Mod>
+<Season></Season>
+<TrackVenue>Suzuka Circuit</TrackVenue>
+<TrackCourse>Suzuka-2005</TrackCourse>
+<TrackEvent>Japanese Grand Prix - 2005</TrackEvent>
+<TrackLength>5834.1</TrackLength>
+<GameVersion>1.255</GameVersion>
+<Dedicated>1</Dedicated>
+<ConnectionType upload="8042" download="8042">Custom</ConnectionType>
+<MOTD>RACEDEPARTMENT.COM - blurring the line between real and virtual motorsports</MOTD>
+<RaceLaps>17</RaceLaps>
+<RaceTime>0</RaceTime>
+<MechFailRate>1</MechFailRate>
+<DamageMult>100</DamageMult>
+<FuelMult>1</FuelMult>
+<TireMult>1</TireMult>
+<VehiclesAllowed>|JF3_2007</VehiclesAllowed>
+<ParcFerme>3</ParcFerme>
+<FixedSetups>0</FixedSetups>
+<FreeSettings>11</FreeSettings>
+<FixedUpgrades>1</FixedUpgrades>
+<Race>
+<DateTime>1229892973</DateTime>
+<TimeString>2008/12/21 21:56:13</TimeString>
+<Laps>17</Laps>
+<Minutes>0</Minutes>
+<Stream>
+<Chat et="2.3">Zach Evans: ryeah</Chat>
+<Chat et="12.0">Sjef Petersen: gla</Chat>
+<Chat et="16.0">Zach Evans: 17 laps?</Chat>
+<Chat et="17.3">Jamie Norman: gla</Chat>
+<Incident et="59.2">Archie Gray(9) reported contact (0.03) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="59.2">Edgar Estévez Guajardo(2) reported contact (0.16) with another vehicle Archie Gray(9)</Incident>
+<Incident et="60.8">Edgar Estévez Guajardo(2) reported contact (1.00) with another vehicle Sabahudin Smerkolj(11)</Incident>
+<Incident et="60.8">Sabahudin Smerkolj(11) reported contact (0.29) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="60.8">Sabahudin Smerkolj(11) reported contact (0.06) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="60.8">Sabahudin Smerkolj(11) reported contact (0.23) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="60.8">Sabahudin Smerkolj(11) reported contact (0.26) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="60.8">Sabahudin Smerkolj(11) reported contact (0.10) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="61.4">Haruaki Gotou(13) reported contact (0.26) with another vehicle Archie Gray(9)</Incident>
+<Incident et="61.5">Haruaki Gotou(13) reported contact (0.13) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="61.5">Haruaki Gotou(13) reported contact (0.03) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="61.6">Oliver Baker(5) reported contact (0.65) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="61.6">Edgar Estévez Guajardo(2) reported contact (0.81) with another vehicle Oliver Baker(5)</Incident>
+<Incident et="61.6">Edgar Estévez Guajardo(2) reported contact (0.03) with another vehicle Oliver Baker(5)</Incident>
+<Incident et="61.6">Oliver Baker(5) reported contact (0.13) with Wing</Incident>
+<Incident et="61.6">Oliver Baker(5) reported contact (0.29) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="61.6">Edgar Estévez Guajardo(2) reported contact (0.03) with another vehicle Oliver Baker(5)</Incident>
+<Incident et="61.6">Oliver Baker(5) reported contact (0.03) with another vehicle Edgar Estévez Guajardo(2)</Incident>
+<Incident et="61.9">Topi Keskinen(3) reported contact (0.19) with Immovable</Incident>
+<Incident et="61.9">Topi Keskinen(3) reported contact (0.06) with Immovable</Incident>
+<Incident et="61.9">Topi Keskinen(3) reported contact (0.23) with Immovable</Incident>
+<Incident et="62.0">Sabahudin Smerkolj(11) reported contact (0.48) with another vehicle Topi Keskinen(3)</Incident>
+<Incident et="62.0">Topi Keskinen(3) reported contact (0.55) with another vehicle Sabahudin Smerkolj(11)</Incident>
+<Incident et="62.0">Topi Keskinen(3) reported contact (0.13) with another vehicle Sabahudin Smerkolj(11)</Incident>
+<Incident et="62.4">Topi Keskinen(3) reported contact (0.10) with Immovable</Incident>
+<Incident et="63.8">Sjef Petersen(4) reported contact (1.00) with Part</Incident>
+<Incident et="63.8">Sjef Petersen(4) reported contact (0.06) with Part</Incident>
+<Incident et="64.1">Sjef Petersen(4) reported contact (1.00) with Wing</Incident>
+<Incident et="64.1">Sjef Petersen(4) reported contact (0.10) with Wing</Incident>
+<Incident et="64.2">Sjef Petersen(4) reported contact (0.06) with Wing</Incident>
+<Incident et="64.6">Evan Hanson(1) reported contact (0.94) with Wing</Incident>
+<Incident et="68.1">Haruaki Gotou(13) reported contact (0.55) with Part</Incident>
+<Incident et="68.8">Haruaki Gotou(13) reported contact (0.06) with Track</Incident>
+<Incident et="86.4">Jonathan Mistry(14) reported contact (0.03) with Immovable</Incident>
+<Score et="86.7">Tom M. Hall(8) lap=0 point=1 t=46.675 et=86.697</Score>
+<Score et="88.5">Jamie Norman(6) lap=0 point=1 t=48.448 et=88.469</Score>
+<Incident et="88.7">Jonathan Mistry(14) reported contact (0.26) with Immovable</Incident>
+<Incident et="88.9">Sjef Petersen(4) reported contact (0.16) with Immovable</Incident>
+<Score et="92.4">Zach Evans(12) lap=0 point=1 t=52.354 et=92.375</Score>
+<Incident et="92.6">Sjef Petersen(4) reported contact (0.19) with another vehicle Jonathan Mistry(14)</Incident>
+<Incident et="92.7">Sjef Petersen(4) reported contact (0.00) with another vehicle Jonathan Mistry(14)</Incident>
+<Incident et="92.7">Jonathan Mistry(14) reported contact (0.23) with another vehicle Sjef Petersen(4)</Incident>
+<Score et="95.2">Oliver Baker(5) lap=0 point=1 t=55.123 et=95.144</Score>
+<Score et="95.7">Evan Hanson(1) lap=0 point=1 t=55.674 et=95.695</Score>
+<Chat et="96.9">Sjef Petersen: Sorry</Chat>
+<Score et="97.8">Archie Gray(9) lap=0 point=1 t=57.776 et=97.797</Score>
+<Score et="98.1">Sabahudin Smerkolj(11) lap=0 point=1 t=58.044 et=98.065</Score>
+<Score et="102.2">Edgar Estévez Guajardo(2) lap=0 point=1 t=62.156 et=102.177</Score>
+<Score et="102.6">Hiromitsu Kishimoto(10) lap=0 point=1 t=62.553 et=102.574</Score>
+<Score et="102.9">Haruaki Gotou(13) lap=0 point=1 t=62.822 et=102.843</Score>
+<Score et="105.3">Jonathan Mistry(14) lap=0 point=1 t=65.273 et=105.294</Score>
+<Score et="108.4">Sjef Petersen(4) lap=0 point=1 t=68.351 et=108.372</Score>
+<Score et="109.2">Topi Keskinen(3) lap=0 point=1 t=69.174 et=109.195</Score>
+<Score et="143.6">Tom M. Hall(8) lap=0 point=2 t=103.525 et=143.546</Score>
+<Score et="145.2">Jamie Norman(6) lap=0 point=2 t=105.097 et=145.118</Score>
+<Score et="148.0">Zach Evans(12) lap=0 point=2 t=107.999 et=148.020</Score>
+<Score et="152.6">Evan Hanson(1) lap=0 point=2 t=112.550 et=152.571</Score>
+<Score et="154.8">Archie Gray(9) lap=0 point=2 t=114.720 et=154.742</Score>
+<Score et="155.5">Oliver Baker(5) lap=0 point=2 t=115.501 et=155.522</Score>
+<Score et="160.0">Haruaki Gotou(13) lap=0 point=2 t=119.950 et=159.971</Score>
+<Score et="161.7">Hiromitsu Kishimoto(10) lap=0 point=2 t=121.611 et=161.633</Score>
+<Score et="162.8">Sabahudin Smerkolj(11) lap=0 point=2 t=122.777 et=162.798</Score>
+<Score et="164.1">Jonathan Mistry(14) lap=0 point=2 t=124.064 et=164.086</Score>
+<Score et="166.2">Tom M. Hall(8) lap=1 point=0 t=126.177 et=166.198</Score>
+<Score et="166.3">Sjef Petersen(4) lap=0 point=2 t=126.206 et=166.228</Score>
+<Score et="166.9">Edgar Estévez Guajardo(2) lap=0 point=2 t=126.820 et=166.841</Score>
+<Score et="168.3">Jamie Norman(6) lap=1 point=0 t=128.281 et=168.302</Score>
+<Score et="170.6">Zach Evans(12) lap=1 point=0 t=130.522 et=170.543</Score>
+<Score et="175.3">Evan Hanson(1) lap=1 point=0 t=135.196 et=175.217</Score>
+<Score et="177.5">Archie Gray(9) lap=1 point=0 t=137.412 et=177.433</Score>
+<Penalty et="182.3">Sabahudin Smerkolj received Stop/Go penalty, 10s, 0laps. Result: penalties=1, 1st=Stop/Go,10s</Penalty>
+<Score et="182.4">Haruaki Gotou(13) lap=1 point=0 t=142.373 et=182.394</Score>
+<Score et="184.1">Hiromitsu Kishimoto(10) lap=1 point=0 t=144.029 et=184.050</Score>
+<Score et="184.1">Oliver Baker(5) lap=1 point=0 t=144.065 et=184.086</Score>
+<Penalty et="185.0">Edgar Estévez Guajardo received Stop/Go penalty, 10s, 0laps. Result: penalties=1, 1st=Stop/Go,10s</Penalty>
+<Score et="187.8">Topi Keskinen(3) lap=0 point=2 t=147.710 et=187.731</Score>
+<Score et="188.3">Jonathan Mistry(14) lap=1 point=0 t=148.268 et=188.289</Score>
+<Score et="189.7">Sjef Petersen(4) lap=1 point=0 t=149.624 et=189.645</Score>
+<Score et="208.6">Tom M. Hall(8) lap=1 point=1 t=42.317 et=208.516</Score>
+<Score et="210.4">Jamie Norman(6) lap=1 point=1 t=42.085 et=210.387</Score>
+<Score et="212.4">Zach Evans(12) lap=1 point=1 t=41.853 et=212.396</Score>
+<Score et="218.3">Evan Hanson(1) lap=1 point=1 t=43.078 et=218.295</Score>
+<Score et="219.1">Archie Gray(9) lap=1 point=1 t=41.610 et=219.043</Score>
+<Score et="219.5">Topi Keskinen(3) lap=1 point=0 t=179.475 et=219.496</Score>
+<Chat et="223.0">Edgar Estévez Guajardo: shit DQ should have checked where the pit entrance was b4 race!</Chat>
+<Score et="224.4">Haruaki Gotou(13) lap=1 point=1 t=41.947 et=224.342</Score>
+<Score et="227.0">Hiromitsu Kishimoto(10) lap=1 point=1 t=42.891 et=226.941</Score>
+<Score et="232.2">Jonathan Mistry(14) lap=1 point=1 t=43.881 et=232.169</Score>
+<Score et="233.2">Sjef Petersen(4) lap=1 point=1 t=43.493 et=233.138</Score>
+<Incident et="239.1">Archie Gray(9) reported contact (0.13) with another vehicle Evan Hanson(1)</Incident>
+<Incident et="239.1">Evan Hanson(1) reported contact (0.26) with another vehicle Archie Gray(9)</Incident>
+<Incident et="239.1">Evan Hanson(1) reported contact (0.00) with another vehicle Archie Gray(9)</Incident>
+<Incident et="240.9">Evan Hanson(1) reported contact (0.32) with Immovable</Incident>
+<Score et="252.4">Oliver Baker(5) lap=1 point=1 t=68.232 et=252.318</Score>
+<Score et="264.1">Tom M. Hall(8) lap=1 point=2 t=97.789 et=263.987</Score>
+<Score et="266.6">Jamie Norman(6) lap=1 point=2 t=98.270 et=266.572</Score>
+<Score et="267.8">Zach Evans(12) lap=1 point=2 t=97.252 et=267.795</Score>
+<Score et="278.7">Archie Gray(9) lap=1 point=2 t=101.204 et=278.637</Score>
+<Score et="279.5">Haruaki Gotou(13) lap=1 point=2 t=97.079 et=279.473</Score>
+<Score et="283.3">Hiromitsu Kishimoto(10) lap=1 point=2 t=99.245 et=283.296</Score>
+<Score et="286.6">Tom M. Hall(8) lap=2 point=0 t=120.360 et=286.558</Score>
+<Score et="286.9">Evan Hanson(1) lap=1 point=2 t=111.600 et=286.816</Score>
+<Score et="289.6">Jonathan Mistry(14) lap=1 point=2 t=101.268 et=289.557</Score>
+<Score et="289.7">Sjef Petersen(4) lap=1 point=2 t=100.079 et=289.724</Score>
+<Score et="289.9">Jamie Norman(6) lap=2 point=0 t=121.567 et=289.870</Score>
+<Score et="290.3">Zach Evans(12) lap=2 point=0 t=119.702 et=290.245</Score>
+<Score et="301.2">Archie Gray(9) lap=2 point=0 t=123.741 et=301.174</Score>
+<Score et="301.9">Haruaki Gotou(13) lap=2 point=0 t=119.431 et=301.825</Score>
+<Score et="305.8">Hiromitsu Kishimoto(10) lap=2 point=0 t=121.717 et=305.767</Score>
+<Score et="309.5">Oliver Baker(5) lap=1 point=2 t=125.372 et=309.458</Score>
+<Score et="312.9">Jonathan Mistry(14) lap=2 point=0 t=124.612 et=312.901</Score>
+<Score et="313.6">Sjef Petersen(4) lap=2 point=0 t=123.913 et=313.558</Score>
+<Score et="314.1">Evan Hanson(1) lap=2 point=0 t=138.906 et=314.123</Score>
+<Score et="323.0">Topi Keskinen(3) lap=1 point=1 t=103.478 et=322.974</Score>
+<Score et="328.1">Tom M. Hall(8) lap=2 point=1 t=41.494 et=328.052</Score>
+<Incident et="330.6">Hiromitsu Kishimoto(10) reported contact (0.84) with Immovable</Incident>
+<Incident et="330.6">Hiromitsu Kishimoto(10) reported contact (0.03) with Wing</Incident>
+<Incident et="330.6">Hiromitsu Kishimoto(10) reported contact (0.13) with Wing</Incident>
+<Incident et="330.6">Hiromitsu Kishimoto(10) reported contact (1.00) with Immovable</Incident>
+<Incident et="330.7">Hiromitsu Kishimoto(10) reported contact (0.39) with Wing</Incident>
+<Incident et="331.2">Hiromitsu Kishimoto(10) reported contact (0.03) with Immovable</Incident>
+<Incident et="331.4">Hiromitsu Kishimoto(10) reported contact (0.03) with Immovable</Incident>
+<Score et="332.7">Zach Evans(12) lap=2 point=1 t=42.389 et=332.634</Score>
+<Score et="332.7">Oliver Baker(5) lap=2 point=0 t=148.574 et=332.659</Score>
+<Score et="332.9">Jamie Norman(6) lap=2 point=1 t=43.006 et=332.876</Score>
+<Score et="343.1">Archie Gray(9) lap=2 point=1 t=41.870 et=343.044</Score>
+<Score et="344.0">Haruaki Gotou(13) lap=2 point=1 t=42.169 et=343.994</Score>
+<Score et="356.4">Jonathan Mistry(14) lap=2 point=1 t=43.489 et=356.390</Score>
+<Score et="357.1">Sjef Petersen(4) lap=2 point=1 t=43.462 et=357.020</Score>
+<Sent et="362.6">Hiromitsu Kishimoto has left the game but vehicle has been stored in the garage</Sent>
+<Score et="380.9">Topi Keskinen(3) lap=1 point=2 t=161.356 et=380.852</Score>
+<Score et="383.5">Tom M. Hall(8) lap=2 point=2 t=96.875 et=383.433</Score>
+<Score et="384.1">Oliver Baker(5) lap=2 point=1 t=51.440 et=384.099</Score>
+<Score et="384.3">Evan Hanson(1) lap=2 point=1 t=70.136 et=384.259</Score>
+<Score et="388.2">Zach Evans(12) lap=2 point=2 t=97.931 et=388.176</Score>
+<Score et="389.3">Jamie Norman(6) lap=2 point=2 t=99.425 et=389.294</Score>
+<Score et="398.1">Archie Gray(9) lap=2 point=2 t=96.839 et=398.013</Score>
+<Score et="399.2">Haruaki Gotou(13) lap=2 point=2 t=97.348 et=399.173</Score>
+<Score et="403.9">Topi Keskinen(3) lap=2 point=0 t=184.400 et=403.896</Score>
+<Score et="405.8">Tom M. Hall(8) lap=3 point=0 t=119.191 et=405.750</Score>
+<Score et="410.5">Zach Evans(12) lap=3 point=0 t=120.219 et=410.465</Score>
+<Score et="412.2">Jamie Norman(6) lap=3 point=0 t=122.302 et=412.172</Score>
+<Score et="413.6">Jonathan Mistry(14) lap=2 point=2 t=100.662 et=413.562</Score>
+<Score et="413.7">Sjef Petersen(4) lap=2 point=2 t=100.117 et=413.675</Score>
+<Score et="420.6">Archie Gray(9) lap=3 point=0 t=119.377 et=420.551</Score>
+<Score et="421.6">Haruaki Gotou(13) lap=3 point=0 t=119.770 et=421.596</Score>
+<Score et="436.7">Jonathan Mistry(14) lap=3 point=0 t=123.718 et=436.619</Score>
+<Score et="437.3">Sjef Petersen(4) lap=3 point=0 t=123.670 et=437.228</Score>
+<Score et="442.1">Oliver Baker(5) lap=2 point=2 t=109.367 et=442.026</Score>
+<Score et="443.1">Evan Hanson(1) lap=2 point=2 t=128.907 et=443.030</Score>
+<Score et="448.1">Tom M. Hall(8) lap=3 point=1 t=42.235 et=447.984</Score>
+<Score et="448.9">Topi Keskinen(3) lap=2 point=1 t=44.975 et=448.871</Score>
+<Score et="452.5">Zach Evans(12) lap=3 point=1 t=41.948 et=452.413</Score>
+<Score et="453.9">Jamie Norman(6) lap=3 point=1 t=41.695 et=453.867</Score>
+<Score et="462.4">Archie Gray(9) lap=3 point=1 t=41.837 et=462.389</Score>
+<Score et="463.8">Haruaki Gotou(13) lap=3 point=1 t=42.130 et=463.726</Score>
+<Score et="465.0">Oliver Baker(5) lap=3 point=0 t=132.302 et=464.962</Score>
+<Score et="465.9">Evan Hanson(1) lap=3 point=0 t=151.695 et=465.818</Score>
+<Sent et="477.3">Edgar Estévez Guajardo has left the game but vehicle has been stored in the garage</Sent>
+<Score et="479.9">Jonathan Mistry(14) lap=3 point=1 t=43.268 et=479.887</Score>
+<Score et="480.5">Sjef Petersen(4) lap=3 point=1 t=43.217 et=480.445</Score>
+<Score et="503.3">Tom M. Hall(8) lap=3 point=2 t=97.516 et=503.266</Score>
+<Score et="507.8">Zach Evans(12) lap=3 point=2 t=97.272 et=507.737</Score>
+<Score et="508.2">Topi Keskinen(3) lap=2 point=2 t=104.231 et=508.127</Score>
+<Score et="509.4">Evan Hanson(1) lap=3 point=1 t=43.515 et=509.333</Score>
+<Score et="509.6">Oliver Baker(5) lap=3 point=1 t=44.610 et=509.572</Score>
+<Score et="510.8">Jamie Norman(6) lap=3 point=2 t=98.620 et=510.792</Score>
+<Score et="518.1">Archie Gray(9) lap=3 point=2 t=97.506 et=518.058</Score>
+<Score et="518.8">Haruaki Gotou(13) lap=3 point=2 t=97.219 et=518.814</Score>
+<Score et="525.8">Tom M. Hall(8) lap=4 point=0 t=120.043 et=525.792</Score>
+<Score et="530.1">Zach Evans(12) lap=4 point=0 t=119.612 et=530.077</Score>
+<Score et="532.1">Topi Keskinen(3) lap=3 point=0 t=128.148 et=532.044</Score>
+<Score et="533.9">Jamie Norman(6) lap=4 point=0 t=121.635 et=533.807</Score>
+<Score et="537.1">Jonathan Mistry(14) lap=3 point=2 t=100.438 et=537.057</Score>
+<Score et="537.4">Sjef Petersen(4) lap=3 point=2 t=100.129 et=537.357</Score>
+<Score et="540.7">Archie Gray(9) lap=4 point=0 t=120.104 et=540.656</Score>
+<Score et="541.2">Haruaki Gotou(13) lap=4 point=0 t=119.562 et=541.157</Score>
+<Score et="561.1">Jonathan Mistry(14) lap=4 point=0 t=124.408 et=561.027</Score>
+<Score et="561.2">Sjef Petersen(4) lap=4 point=0 t=123.899 et=561.127</Score>
+<Score et="566.9">Oliver Baker(5) lap=3 point=2 t=101.865 et=566.827</Score>
+<Score et="567.6">Tom M. Hall(8) lap=4 point=1 t=41.752 et=567.544</Score>
+<Score et="571.9">Zach Evans(12) lap=4 point=1 t=41.817 et=571.894</Score>
+<Score et="575.9">Jamie Norman(6) lap=4 point=1 t=42.024 et=575.831</Score>
+<Score et="576.5">Evan Hanson(1) lap=3 point=2 t=110.628 et=576.446</Score>
+<Score et="576.6">Topi Keskinen(3) lap=3 point=1 t=44.480 et=576.524</Score>
+<Score et="582.5">Archie Gray(9) lap=4 point=1 t=41.788 et=582.444</Score>
+<Score et="583.0">Haruaki Gotou(13) lap=4 point=1 t=41.793 et=582.950</Score>
+<Score et="591.4">Oliver Baker(5) lap=4 point=0 t=126.382 et=591.344</Score>
+<Score et="599.3">Evan Hanson(1) lap=4 point=0 t=133.422 et=599.239</Score>
+<Score et="604.7">Jonathan Mistry(14) lap=4 point=1 t=43.667 et=604.694</Score>
+<Score et="604.8">Sjef Petersen(4) lap=4 point=1 t=43.648 et=604.774</Score>
+<Score et="622.8">Tom M. Hall(8) lap=4 point=2 t=96.971 et=622.763</Score>
+<Score et="628.1">Zach Evans(12) lap=4 point=2 t=97.919 et=627.996</Score>
+<Score et="631.7">Jamie Norman(6) lap=4 point=2 t=97.813 et=631.619</Score>
+<Score et="634.7">Topi Keskinen(3) lap=3 point=2 t=102.596 et=634.640</Score>
+<Score et="635.7">Oliver Baker(5) lap=4 point=1 t=44.284 et=635.627</Score>
+<Score et="637.5">Archie Gray(9) lap=4 point=2 t=96.815 et=637.470</Score>
+<Score et="638.1">Haruaki Gotou(13) lap=4 point=2 t=96.877 et=638.034</Score>
+<Score et="642.3">Evan Hanson(1) lap=4 point=1 t=42.968 et=642.207</Score>
+<Score et="645.7">Tom M. Hall(8) lap=5 point=0 t=119.841 et=645.634</Score>
+<Score et="650.4">Zach Evans(12) lap=5 point=0 t=120.273 et=650.350</Score>
+<Score et="654.5">Jamie Norman(6) lap=5 point=0 t=120.675 et=654.482</Score>
+<Score et="660.0">Archie Gray(9) lap=5 point=0 t=119.268 et=659.923</Score>
+<Score et="661.7">Jonathan Mistry(14) lap=4 point=2 t=100.675 et=661.702</Score>
+<Score et="661.9">Sjef Petersen(4) lap=4 point=2 t=100.754 et=661.881</Score>
+<Score et="670.8">Topi Keskinen(3) lap=4 point=0 t=138.683 et=670.727</Score>
+<Score et="684.7">Jonathan Mistry(14) lap=5 point=0 t=123.646 et=684.674</Score>
+<Score et="685.1">Sjef Petersen(4) lap=5 point=0 t=123.941 et=685.067</Score>
+<Score et="687.8">Tom M. Hall(8) lap=5 point=1 t=42.160 et=687.794</Score>
+<Score et="692.2">Zach Evans(12) lap=5 point=1 t=41.820 et=692.171</Score>
+<Score et="696.5">Jamie Norman(6) lap=5 point=1 t=41.962 et=696.444</Score>
+<Score et="696.7">Oliver Baker(5) lap=4 point=2 t=105.307 et=696.651</Score>
+<Score et="698.5">Evan Hanson(1) lap=4 point=2 t=99.227 et=698.467</Score>
+<Score et="701.8">Archie Gray(9) lap=5 point=1 t=41.876 et=701.800</Score>
+<Chat et="711.1">Haruaki Gotou: See you later guys,shame about the wild first corner</Chat>
+<Sent et="712.6">Haruaki Gotou has left the game but vehicle has been stored in the garage</Sent>
+<Score et="715.5">Topi Keskinen(3) lap=4 point=1 t=44.740 et=715.466</Score>
+<Score et="719.9">Oliver Baker(5) lap=5 point=0 t=128.506 et=719.850</Score>
+<Score et="721.6">Evan Hanson(1) lap=5 point=0 t=122.358 et=721.597</Score>
+<Score et="727.7">Jonathan Mistry(14) lap=5 point=1 t=42.974 et=727.648</Score>
+<Score et="728.2">Sjef Petersen(4) lap=5 point=1 t=43.067 et=728.134</Score>
+<Score et="743.2">Tom M. Hall(8) lap=5 point=2 t=97.501 et=743.135</Score>
+<Score et="747.6">Zach Evans(12) lap=5 point=2 t=97.224 et=747.574</Score>
+<Score et="753.0">Jamie Norman(6) lap=5 point=2 t=98.478 et=752.960</Score>
+<Score et="757.1">Archie Gray(9) lap=5 point=2 t=97.120 et=757.043</Score>
+<Score et="762.6">Oliver Baker(5) lap=5 point=1 t=42.657 et=762.507</Score>
+<Score et="765.9">Tom M. Hall(8) lap=6 point=0 t=120.179 et=765.813</Score>
+<Score et="767.0">Evan Hanson(1) lap=5 point=1 t=45.309 et=766.907</Score>
+<Score et="770.0">Zach Evans(12) lap=6 point=0 t=119.642 et=769.992</Score>
+<Score et="773.2">Topi Keskinen(3) lap=4 point=2 t=102.410 et=773.137</Score>
+<Score et="775.9">Jamie Norman(6) lap=6 point=0 t=121.413 et=775.896</Score>
+<Score et="780.2">Archie Gray(9) lap=6 point=0 t=120.215 et=780.138</Score>
+<Score et="784.4">Jonathan Mistry(14) lap=5 point=2 t=99.693 et=784.367</Score>
+<Score et="786.8">Sjef Petersen(4) lap=5 point=2 t=101.690 et=786.757</Score>
+<Score et="796.5">Topi Keskinen(3) lap=5 point=0 t=125.698 et=796.425</Score>
+<Score et="807.4">Jonathan Mistry(14) lap=6 point=0 t=122.729 et=807.402</Score>
+<Score et="807.9">Tom M. Hall(8) lap=6 point=1 t=42.062 et=807.875</Score>
+<Score et="809.5">Sjef Petersen(4) lap=6 point=0 t=124.423 et=809.491</Score>
+<Score et="812.0">Zach Evans(12) lap=6 point=1 t=41.950 et=811.942</Score>
+<Score et="817.8">Jamie Norman(6) lap=6 point=1 t=41.898 et=817.794</Score>
+<Score et="822.0">Archie Gray(9) lap=6 point=1 t=41.812 et=821.950</Score>
+<Score et="824.9">Oliver Baker(5) lap=5 point=2 t=105.011 et=824.862</Score>
+<Score et="825.0">Evan Hanson(1) lap=5 point=2 t=103.346 et=824.943</Score>
+<Chat et="835.4">Sabahudin Smerkolj: i go to, too much damage and i missed the pitentrance and got disqualified, cu next race</Chat>
+<Score et="839.9">Topi Keskinen(3) lap=5 point=1 t=43.395 et=839.820</Score>
+<Score et="848.1">Oliver Baker(5) lap=6 point=0 t=128.192 et=848.043</Score>
+<Score et="848.6">Evan Hanson(1) lap=6 point=0 t=126.914 et=848.511</Score>
+<Score et="850.4">Jonathan Mistry(14) lap=6 point=1 t=42.946 et=850.348</Score>
+<Score et="852.4">Sjef Petersen(4) lap=6 point=1 t=42.873 et=852.364</Score>
+<Score et="862.9">Tom M. Hall(8) lap=6 point=2 t=97.052 et=862.865</Score>
+<Score et="867.1">Zach Evans(12) lap=6 point=2 t=97.122 et=867.115</Score>
+<Incident et="870.7">Jonathan Mistry(14) reported contact (0.03) with Immovable</Incident>
+<Sent et="874.0">Sabahudin Smerkolj has left the game but vehicle has been stored in the garage</Sent>
+<Score et="874.1">Jamie Norman(6) lap=6 point=2 t=98.196 et=874.092</Score>
+<Score et="878.1">Archie Gray(9) lap=6 point=2 t=97.926 et=878.064</Score>
+<Score et="885.5">Tom M. Hall(8) lap=7 point=0 t=119.654 et=885.467</Score>
+<Score et="889.7">Zach Evans(12) lap=7 point=0 t=119.681 et=889.673</Score>
+<Score et="890.8">Oliver Baker(5) lap=6 point=1 t=42.730 et=890.772</Score>
+<Score et="892.0">Evan Hanson(1) lap=6 point=1 t=43.397 et=891.908</Score>
+<Score et="897.0">Jamie Norman(6) lap=7 point=0 t=121.097 et=896.993</Score>
+<Score et="898.2">Topi Keskinen(3) lap=5 point=2 t=101.733 et=898.158</Score>
+<Score et="900.8">Archie Gray(9) lap=7 point=0 t=120.624 et=900.762</Score>
+<Score et="908.9">Sjef Petersen(4) lap=6 point=2 t=99.405 et=908.895</Score>
+<Score et="913.5">Jonathan Mistry(14) lap=6 point=2 t=106.040 et=913.442</Score>
+<Score et="921.5">Topi Keskinen(3) lap=6 point=0 t=125.035 et=921.460</Score>
+<Score et="927.2">Tom M. Hall(8) lap=7 point=1 t=41.677 et=927.144</Score>
+<Score et="931.6">Zach Evans(12) lap=7 point=1 t=41.870 et=931.543</Score>
+<Score et="931.7">Sjef Petersen(4) lap=7 point=0 t=122.205 et=931.696</Score>
+<Score et="936.4">Jonathan Mistry(14) lap=7 point=0 t=128.955 et=936.357</Score>
+<Score et="942.8">Archie Gray(9) lap=7 point=1 t=41.958 et=942.720</Score>
+<Score et="947.2">Oliver Baker(5) lap=6 point=2 t=99.168 et=947.211</Score>
+<Score et="948.3">Evan Hanson(1) lap=6 point=2 t=99.724 et=948.235</Score>
+<Score et="952.8">Jamie Norman(6) lap=7 point=1 t=55.783 et=952.776</Score>
+<Score et="965.2">Topi Keskinen(3) lap=6 point=1 t=43.679 et=965.138</Score>
+<Score et="970.0">Oliver Baker(5) lap=7 point=0 t=121.927 et=969.970</Score>
+<Score et="971.5">Evan Hanson(1) lap=7 point=0 t=122.904 et=971.415</Score>
+<Score et="975.2">Sjef Petersen(4) lap=7 point=1 t=43.477 et=975.173</Score>
+<Score et="979.5">Jonathan Mistry(14) lap=7 point=1 t=43.112 et=979.469</Score>
+<Score et="986.6">Tom M. Hall(8) lap=7 point=2 t=101.129 et=986.596</Score>
+<Score et="987.0">Zach Evans(12) lap=7 point=2 t=97.253 et=986.926</Score>
+<Score et="997.7">Archie Gray(9) lap=7 point=2 t=96.896 et=997.659</Score>
+<Sent et="1003.0">Jamie Norman has left the game but vehicle has been stored in the garage</Sent>
+<Score et="1009.7">Zach Evans(12) lap=8 point=0 t=119.974 et=1009.647</Score>
+<Score et="1010.1">Tom M. Hall(8) lap=8 point=0 t=124.575 et=1010.042</Score>
+<Score et="1014.1">Oliver Baker(5) lap=7 point=1 t=44.077 et=1014.046</Score>
+<Score et="1015.5">Evan Hanson(1) lap=7 point=1 t=44.053 et=1015.468</Score>
+<Score et="1020.0">Archie Gray(9) lap=8 point=0 t=119.181 et=1019.944</Score>
+<Score et="1024.8">Topi Keskinen(3) lap=6 point=2 t=103.310 et=1024.769</Score>
+<Score et="1032.0">Sjef Petersen(4) lap=7 point=2 t=100.287 et=1031.983</Score>
+<Score et="1035.8">Jonathan Mistry(14) lap=7 point=2 t=99.417 et=1035.774</Score>
+<Score et="1049.2">Topi Keskinen(3) lap=7 point=0 t=127.654 et=1049.114</Score>
+<Score et="1051.9">Zach Evans(12) lap=8 point=1 t=42.217 et=1051.864</Score>
+<Score et="1052.1">Tom M. Hall(8) lap=8 point=1 t=41.997 et=1052.040</Score>
+<Score et="1054.6">Sjef Petersen(4) lap=8 point=0 t=122.827 et=1054.523</Score>
+<Score et="1058.5">Jonathan Mistry(14) lap=8 point=0 t=122.142 et=1058.498</Score>
+<Score et="1061.8">Archie Gray(9) lap=8 point=1 t=41.837 et=1061.781</Score>
+<Score et="1081.1">Oliver Baker(5) lap=7 point=2 t=111.066 et=1081.036</Score>
+<Score et="1081.3">Evan Hanson(1) lap=7 point=2 t=109.847 et=1081.262</Score>
+<Score et="1093.4">Topi Keskinen(3) lap=7 point=1 t=44.234 et=1093.347</Score>
+<Score et="1097.9">Sjef Petersen(4) lap=8 point=1 t=43.321 et=1097.844</Score>
+<Score et="1101.6">Jonathan Mistry(14) lap=8 point=1 t=43.022 et=1101.520</Score>
+<Score et="1104.5">Oliver Baker(5) lap=8 point=0 t=134.449 et=1104.419</Score>
+<Score et="1104.7">Evan Hanson(1) lap=8 point=0 t=133.281 et=1104.696</Score>
+<Score et="1107.1">Zach Evans(12) lap=8 point=2 t=97.392 et=1107.038</Score>
+<Score et="1107.7">Tom M. Hall(8) lap=8 point=2 t=97.653 et=1107.695</Score>
+<Score et="1116.7">Archie Gray(9) lap=8 point=2 t=96.734 et=1116.678</Score>
+<Score et="1129.7">Zach Evans(12) lap=9 point=0 t=120.043 et=1129.689</Score>
+<Score et="1130.2">Tom M. Hall(8) lap=9 point=0 t=120.119 et=1130.162</Score>
+<Incident et="1136.6">Oliver Baker(5) reported contact (1.00) with Immovable</Incident>
+<Score et="1143.5">Archie Gray(9) lap=9 point=0 t=123.546 et=1143.490</Score>
+<Score et="1150.5">Topi Keskinen(3) lap=7 point=2 t=101.307 et=1150.421</Score>
+<Score et="1153.7">Evan Hanson(1) lap=8 point=1 t=48.915 et=1153.612</Score>
+<Incident et="1154.3">Oliver Baker(5) reported contact (0.10) with Immovable</Incident>
+<Score et="1154.4">Sjef Petersen(4) lap=8 point=2 t=99.796 et=1154.319</Score>
+<Incident et="1154.6">Oliver Baker(5) reported contact (0.35) with Immovable</Incident>
+<Score et="1158.6">Jonathan Mistry(14) lap=8 point=2 t=100.085 et=1158.583</Score>
+<Score et="1171.6">Zach Evans(12) lap=9 point=1 t=41.820 et=1171.510</Score>
+<Score et="1171.9">Tom M. Hall(8) lap=9 point=1 t=41.623 et=1171.784</Score>
+<Score et="1173.6">Topi Keskinen(3) lap=8 point=0 t=124.458 et=1173.572</Score>
+<Score et="1175.1">Oliver Baker(5) lap=8 point=1 t=70.598 et=1175.016</Score>
+<Score et="1177.1">Sjef Petersen(4) lap=9 point=0 t=122.500 et=1177.023</Score>
+<Score et="1181.8">Jonathan Mistry(14) lap=9 point=0 t=123.260 et=1181.758</Score>
+<Score et="1185.3">Archie Gray(9) lap=9 point=1 t=41.732 et=1185.222</Score>
+<Score et="1215.8">Evan Hanson(1) lap=8 point=2 t=111.052 et=1215.749</Score>
+<Score et="1216.9">Topi Keskinen(3) lap=8 point=1 t=43.251 et=1216.823</Score>
+<Score et="1220.6">Sjef Petersen(4) lap=9 point=1 t=43.553 et=1220.577</Score>
+<Score et="1224.6">Jonathan Mistry(14) lap=9 point=1 t=42.761 et=1224.519</Score>
+<Score et="1226.9">Zach Evans(12) lap=9 point=2 t=97.170 et=1226.859</Score>
+<Score et="1227.0">Tom M. Hall(8) lap=9 point=2 t=96.774 et=1226.936</Score>
+<Score et="1239.9">Evan Hanson(1) lap=9 point=0 t=135.168 et=1239.864</Score>
+<Score et="1240.5">Archie Gray(9) lap=9 point=2 t=96.960 et=1240.450</Score>
+<Score et="1249.8">Zach Evans(12) lap=10 point=0 t=120.021 et=1249.710</Score>
+<Score et="1250.1">Tom M. Hall(8) lap=10 point=0 t=119.826 et=1249.988</Score>
+<Score et="1262.8">Archie Gray(9) lap=10 point=0 t=119.309 et=1262.799</Score>
+<Score et="1274.7">Topi Keskinen(3) lap=8 point=2 t=101.039 et=1274.611</Score>
+<Score et="1277.0">Sjef Petersen(4) lap=9 point=2 t=99.921 et=1276.944</Score>
+<Score et="1278.6">Oliver Baker(5) lap=8 point=2 t=174.169 et=1278.588</Score>
+<Score et="1281.3">Jonathan Mistry(14) lap=9 point=2 t=99.487 et=1281.245</Score>
+<Score et="1284.4">Evan Hanson(1) lap=9 point=1 t=44.463 et=1284.328</Score>
+<Score et="1292.4">Zach Evans(12) lap=10 point=1 t=42.623 et=1292.334</Score>
+<Score et="1292.9">Tom M. Hall(8) lap=10 point=1 t=42.874 et=1292.862</Score>
+<Score et="1299.1">Topi Keskinen(3) lap=9 point=0 t=125.514 et=1299.086</Score>
+<Score et="1300.2">Sjef Petersen(4) lap=10 point=0 t=123.204 et=1300.228</Score>
+<Score et="1304.4">Jonathan Mistry(14) lap=10 point=0 t=122.566 et=1304.324</Score>
+<Score et="1304.6">Archie Gray(9) lap=10 point=1 t=41.784 et=1304.583</Score>
+<Score et="1319.3">Oliver Baker(5) lap=9 point=0 t=214.822 et=1319.241</Score>
+<Score et="1341.4">Evan Hanson(1) lap=9 point=2 t=101.458 et=1341.322</Score>
+<Score et="1342.3">Topi Keskinen(3) lap=9 point=1 t=43.155 et=1342.241</Score>
+<Score et="1343.4">Sjef Petersen(4) lap=10 point=1 t=43.117 et=1343.344</Score>
+<Score et="1347.0">Jonathan Mistry(14) lap=10 point=1 t=42.664 et=1346.988</Score>
+<Score et="1347.8">Zach Evans(12) lap=10 point=2 t=98.100 et=1347.811</Score>
+<Score et="1348.1">Tom M. Hall(8) lap=10 point=2 t=98.068 et=1348.056</Score>
+<Score et="1359.8">Archie Gray(9) lap=10 point=2 t=96.995 et=1359.794</Score>
+<Score et="1364.8">Evan Hanson(1) lap=10 point=0 t=124.917 et=1364.781</Score>
+<Score et="1370.3">Zach Evans(12) lap=11 point=0 t=120.561 et=1370.271</Score>
+<Score et="1370.9">Tom M. Hall(8) lap=11 point=0 t=120.877 et=1370.865</Score>
+<Score et="1382.5">Archie Gray(9) lap=11 point=0 t=119.703 et=1382.501</Score>
+<Score et="1399.7">Sjef Petersen(4) lap=10 point=2 t=99.438 et=1399.665</Score>
+<Score et="1401.2">Topi Keskinen(3) lap=9 point=2 t=102.110 et=1401.196</Score>
+<Score et="1403.9">Jonathan Mistry(14) lap=10 point=2 t=99.511 et=1403.835</Score>
+<Score et="1410.0">Evan Hanson(1) lap=10 point=1 t=45.188 et=1409.969</Score>
+<Score et="1412.2">Zach Evans(12) lap=11 point=1 t=41.923 et=1412.194</Score>
+<Score et="1413.0">Tom M. Hall(8) lap=11 point=1 t=42.048 et=1412.913</Score>
+<Score et="1422.4">Sjef Petersen(4) lap=11 point=0 t=122.161 et=1422.388</Score>
+<Score et="1424.1">Topi Keskinen(3) lap=10 point=0 t=124.954 et=1424.040</Score>
+<Score et="1424.4">Archie Gray(9) lap=11 point=1 t=41.806 et=1424.308</Score>
+<Score et="1426.6">Jonathan Mistry(14) lap=11 point=0 t=122.249 et=1426.573</Score>
+<Score et="1465.1">Sjef Petersen(4) lap=11 point=1 t=42.656 et=1465.044</Score>
+<Score et="1467.4">Zach Evans(12) lap=11 point=2 t=97.094 et=1467.365</Score>
+<Score et="1467.9">Tom M. Hall(8) lap=11 point=2 t=96.975 et=1467.840</Score>
+<Score et="1468.7">Topi Keskinen(3) lap=10 point=1 t=44.655 et=1468.695</Score>
+<Score et="1469.4">Evan Hanson(1) lap=10 point=2 t=104.538 et=1469.319</Score>
+<Score et="1469.4">Jonathan Mistry(14) lap=11 point=1 t=42.750 et=1469.323</Score>
+<Score et="1479.5">Archie Gray(9) lap=11 point=2 t=96.970 et=1479.471</Score>
+<Score et="1489.7">Zach Evans(12) lap=12 point=0 t=119.356 et=1489.627</Score>
+<Score et="1490.2">Tom M. Hall(8) lap=12 point=0 t=119.272 et=1490.137</Score>
+<Score et="1492.0">Evan Hanson(1) lap=11 point=0 t=127.163 et=1491.944</Score>
+<Score et="1501.7">Archie Gray(9) lap=12 point=0 t=119.111 et=1501.613</Score>
+<Score et="1521.6">Sjef Petersen(4) lap=11 point=2 t=99.162 et=1521.550</Score>
+<Score et="1525.7">Jonathan Mistry(14) lap=11 point=2 t=99.037 et=1525.611</Score>
+<Incident et="1526.7">Tom M. Hall(8) reported contact (0.26) with Immovable</Incident>
+<Incident et="1526.7">Tom M. Hall(8) reported contact (0.19) with Immovable</Incident>
+<Score et="1527.0">Topi Keskinen(3) lap=10 point=2 t=102.893 et=1526.933</Score>
+<Incident et="1529.5">Tom M. Hall(8) reported contact (0.45) with Immovable</Incident>
+<Score et="1531.5">Zach Evans(12) lap=12 point=1 t=41.786 et=1531.413</Score>
+<Incident et="1531.8">Tom M. Hall(8) reported contact (1.00) with another vehicle Evan Hanson(1)</Incident>
+<Incident et="1531.8">Evan Hanson(1) reported contact (0.94) with another vehicle Tom M. Hall(8)</Incident>
+<Incident et="1531.8">Evan Hanson(1) reported contact (0.29) with another vehicle Tom M. Hall(8)</Incident>
+<Incident et="1531.8">Evan Hanson(1) reported contact (0.52) with another vehicle Tom M. Hall(8)</Incident>
+<Incident et="1531.8">Evan Hanson(1) reported contact (0.16) with Wing</Incident>
+<Incident et="1531.8">Tom M. Hall(8) reported contact (0.16) with another vehicle Evan Hanson(1)</Incident>
+<Incident et="1533.7">Evan Hanson(1) reported contact (0.55) with Immovable</Incident>
+<Incident et="1533.7">Evan Hanson(1) reported contact (0.77) with Immovable</Incident>
+<Score et="1543.8">Archie Gray(9) lap=12 point=1 t=42.181 et=1543.794</Score>
+<Score et="1544.3">Sjef Petersen(4) lap=12 point=0 t=121.864 et=1544.253</Score>
+<Score et="1548.3">Jonathan Mistry(14) lap=12 point=0 t=121.660 et=1548.233</Score>
+<Score et="1550.0">Topi Keskinen(3) lap=11 point=0 t=125.900 et=1549.940</Score>
+<Score et="1551.4">Tom M. Hall(8) lap=12 point=1 t=61.187 et=1551.324</Score>
+<Score et="1554.7">Evan Hanson(1) lap=11 point=1 t=62.722 et=1554.666</Score>
+<Chat et="1580.5">Tom M. Hall: Soz Si    :(</Chat>
+<Score et="1587.1">Sjef Petersen(4) lap=12 point=1 t=42.799 et=1587.052</Score>
+<Score et="1587.4">Zach Evans(12) lap=12 point=2 t=97.762 et=1587.390</Score>
+<Score et="1590.7">Jonathan Mistry(14) lap=12 point=1 t=42.468 et=1590.701</Score>
+<Score et="1593.7">Topi Keskinen(3) lap=11 point=1 t=43.706 et=1593.647</Score>
+<Score et="1598.9">Archie Gray(9) lap=12 point=2 t=97.247 et=1598.859</Score>
+<Score et="1610.0">Zach Evans(12) lap=13 point=0 t=120.295 et=1609.922</Score>
+<Score et="1614.6">Evan Hanson(1) lap=11 point=2 t=122.632 et=1614.575</Score>
+<Score et="1621.3">Archie Gray(9) lap=13 point=0 t=119.625 et=1621.238</Score>
+<Score et="1643.4">Evan Hanson(1) lap=12 point=0 t=151.459 et=1643.403</Score>
+<Score et="1643.7">Sjef Petersen(4) lap=12 point=2 t=99.420 et=1643.673</Score>
+<Score et="1647.2">Jonathan Mistry(14) lap=12 point=2 t=98.968 et=1647.201</Score>
+<Score et="1650.4">Topi Keskinen(3) lap=11 point=2 t=100.455 et=1650.395</Score>
+<Score et="1652.1">Zach Evans(12) lap=13 point=1 t=42.147 et=1652.069</Score>
+<Score et="1663.0">Archie Gray(9) lap=13 point=1 t=41.704 et=1662.942</Score>
+<Score et="1666.4">Sjef Petersen(4) lap=13 point=0 t=122.097 et=1666.350</Score>
+<Score et="1670.4">Jonathan Mistry(14) lap=13 point=0 t=122.144 et=1670.377</Score>
+<Score et="1673.9">Topi Keskinen(3) lap=12 point=0 t=123.881 et=1673.821</Score>
+<Sent et="1683.4">Tom M. Hall has left the game but vehicle has been stored in the garage</Sent>
+<Score et="1708.1">Zach Evans(12) lap=13 point=2 t=98.093 et=1708.015</Score>
+<Score et="1709.8">Sjef Petersen(4) lap=13 point=1 t=43.417 et=1709.767</Score>
+<Score et="1713.9">Jonathan Mistry(14) lap=13 point=1 t=43.509 et=1713.886</Score>
+<Score et="1714.6">Evan Hanson(1) lap=12 point=1 t=71.192 et=1714.595</Score>
+<Score et="1717.9">Topi Keskinen(3) lap=12 point=1 t=44.011 et=1717.832</Score>
+<Score et="1718.3">Archie Gray(9) lap=13 point=2 t=97.024 et=1718.262</Score>
+<Score et="1730.5">Zach Evans(12) lap=14 point=0 t=120.517 et=1730.439</Score>
+<Score et="1740.6">Archie Gray(9) lap=14 point=0 t=119.352 et=1740.590</Score>
+<Score et="1766.4">Sjef Petersen(4) lap=13 point=2 t=99.957 et=1766.306</Score>
+<Score et="1770.6">Jonathan Mistry(14) lap=13 point=2 t=100.222 et=1770.599</Score>
+<Score et="1772.7">Zach Evans(12) lap=14 point=1 t=42.188 et=1772.627</Score>
+<Score et="1776.8">Topi Keskinen(3) lap=12 point=2 t=102.889 et=1776.710</Score>
+<Score et="1777.1">Evan Hanson(1) lap=12 point=2 t=133.656 et=1777.058</Score>
+<Score et="1782.2">Archie Gray(9) lap=14 point=1 t=41.523 et=1782.113</Score>
+<Score et="1790.2">Sjef Petersen(4) lap=14 point=0 t=123.759 et=1790.109</Score>
+<Score et="1793.5">Jonathan Mistry(14) lap=14 point=0 t=123.042 et=1793.419</Score>
+<Score et="1800.4">Topi Keskinen(3) lap=13 point=0 t=126.573 et=1800.395</Score>
+<Score et="1800.8">Evan Hanson(1) lap=13 point=0 t=157.338 et=1800.741</Score>
+<Score et="1828.3">Zach Evans(12) lap=14 point=2 t=97.780 et=1828.219</Score>
+<Score et="1833.3">Sjef Petersen(4) lap=14 point=1 t=43.101 et=1833.210</Score>
+<Score et="1836.2">Jonathan Mistry(14) lap=14 point=1 t=42.707 et=1836.126</Score>
+<Score et="1836.9">Archie Gray(9) lap=14 point=2 t=96.268 et=1836.858</Score>
+<Score et="1843.9">Topi Keskinen(3) lap=13 point=1 t=43.438 et=1843.833</Score>
+<Score et="1845.0">Evan Hanson(1) lap=13 point=1 t=44.231 et=1844.972</Score>
+<Score et="1850.6">Zach Evans(12) lap=15 point=0 t=120.158 et=1850.597</Score>
+<Score et="1859.4">Archie Gray(9) lap=15 point=0 t=118.725 et=1859.315</Score>
+<Incident et="1889.4">Topi Keskinen(3) reported contact (0.23) with Immovable</Incident>
+<Incident et="1889.7">Topi Keskinen(3) reported contact (0.19) with Immovable</Incident>
+<Score et="1890.3">Sjef Petersen(4) lap=14 point=2 t=100.148 et=1890.256</Score>
+<Score et="1892.2">Jonathan Mistry(14) lap=14 point=2 t=98.751 et=1892.170</Score>
+<Score et="1892.8">Zach Evans(12) lap=15 point=1 t=42.152 et=1892.749</Score>
+<Score et="1902.2">Archie Gray(9) lap=15 point=1 t=42.796 et=1902.111</Score>
+<Score et="1911.0">Topi Keskinen(3) lap=13 point=2 t=110.578 et=1910.973</Score>
+<Score et="1911.7">Evan Hanson(1) lap=13 point=2 t=110.872 et=1911.613</Score>
+<Score et="1913.5">Sjef Petersen(4) lap=15 point=0 t=123.317 et=1913.426</Score>
+<Score et="1915.0">Jonathan Mistry(14) lap=15 point=0 t=121.493 et=1914.912</Score>
+<Score et="1945.1">Evan Hanson(1) lap=14 point=0 t=144.329 et=1945.070</Score>
+<Score et="1947.3">Topi Keskinen(3) lap=14 point=0 t=146.854 et=1947.248</Score>
+<Score et="1947.7">Zach Evans(12) lap=15 point=2 t=97.064 et=1947.660</Score>
+<Score et="1956.4">Sjef Petersen(4) lap=15 point=1 t=42.980 et=1956.406</Score>
+<Score et="1956.8">Archie Gray(9) lap=15 point=2 t=97.479 et=1956.794</Score>
+<Score et="1957.3">Jonathan Mistry(14) lap=15 point=1 t=42.309 et=1957.221</Score>
+<Score et="1970.0">Zach Evans(12) lap=16 point=0 t=119.359 et=1969.956</Score>
+<Score et="1979.4">Archie Gray(9) lap=16 point=0 t=120.072 et=1979.387</Score>
+<Score et="1993.9">Topi Keskinen(3) lap=14 point=1 t=46.574 et=1993.823</Score>
+<Score et="1994.1">Evan Hanson(1) lap=14 point=1 t=48.945 et=1994.014</Score>
+<Incident et="1998.2">Evan Hanson(1) reported contact (0.13) with Track</Incident>
+<Score et="2012.1">Zach Evans(12) lap=16 point=1 t=42.145 et=2012.101</Score>
+<Score et="2012.7">Sjef Petersen(4) lap=15 point=2 t=99.261 et=2012.687</Score>
+<Score et="2013.1">Jonathan Mistry(14) lap=15 point=2 t=98.109 et=2013.021</Score>
+<Score et="2021.3">Archie Gray(9) lap=16 point=1 t=41.851 et=2021.238</Score>
+<Score et="2035.5">Sjef Petersen(4) lap=16 point=0 t=122.005 et=2035.431</Score>
+<Score et="2036.1">Jonathan Mistry(14) lap=16 point=0 t=121.129 et=2036.041</Score>
+<Score et="2055.9">Topi Keskinen(3) lap=14 point=2 t=108.645 et=2055.893</Score>
+<Score et="2056.0">Evan Hanson(1) lap=14 point=2 t=110.920 et=2055.990</Score>
+<Score et="2067.4">Zach Evans(12) lap=16 point=2 t=97.370 et=2067.326</Score>
+<Score et="2076.1">Archie Gray(9) lap=16 point=2 t=96.683 et=2076.070</Score>
+<Score et="2078.4">Sjef Petersen(4) lap=16 point=1 t=42.927 et=2078.358</Score>
+<Score et="2078.6">Jonathan Mistry(14) lap=16 point=1 t=42.497 et=2078.538</Score>
+<Score et="2079.1">Topi Keskinen(3) lap=15 point=0 t=131.814 et=2079.062</Score>
+<Score et="2079.6">Evan Hanson(1) lap=15 point=0 t=134.488 et=2079.557</Score>
+<Score et="2089.7">Checkered for Zach Evans, laps=17/17, endET=2089.662354/306254101833471170000000000000000000000.000000, crossedAfterTime=0</Score>
+<Score et="2089.7">Zach Evans(12) lap=17 point=0 t=119.706 et=2089.662</Score>
+<Score et="2098.8">Archie Gray(9) lap=17 point=0 t=119.396 et=2098.783</Score>
+<Score et="2122.9">Topi Keskinen(3) lap=15 point=1 t=43.811 et=2122.873</Score>
+<Score et="2123.9">Evan Hanson(1) lap=15 point=1 t=44.321 et=2123.878</Score>
+<Incident et="2133.1">Evan Hanson(1) reported contact (0.52) with Immovable</Incident>
+<Incident et="2133.1">Evan Hanson(1) reported contact (0.32) with Immovable</Incident>
+<Incident et="2133.1">Evan Hanson(1) reported contact (0.55) with Immovable</Incident>
+<Incident et="2134.0">Evan Hanson(1) reported contact (0.13) with Immovable</Incident>
+<Incident et="2135.5">Evan Hanson(1) reported contact (0.26) with Immovable</Incident>
+<Score et="2136.2">Jonathan Mistry(14) lap=16 point=2 t=100.107 et=2136.148</Score>
+<Score et="2138.0">Sjef Petersen(4) lap=16 point=2 t=102.556 et=2137.987</Score>
+<Score et="2158.8">Jonathan Mistry(14) lap=17 point=0 t=122.696 et=2158.737</Score>
+<Score et="2160.8">Sjef Petersen(4) lap=17 point=0 t=125.313 et=2160.744</Score>
+<Incident et="2162.1">Jonathan Mistry(14) reported contact (1.00) with Immovable</Incident>
+<Incident et="2162.1">Jonathan Mistry(14) reported contact (0.45) with Immovable</Incident>
+<Incident et="2162.1">Jonathan Mistry(14) reported contact (0.29) with Wing</Incident>
+<Incident et="2162.2">Jonathan Mistry(14) reported contact (0.74) with Immovable</Incident>
+<Incident et="2167.0">Jonathan Mistry(14) reported contact (1.00) with Immovable</Incident>
+<Score et="2186.8">Topi Keskinen(3) lap=15 point=2 t=107.697 et=2186.759</Score>
+<Chat et="2191.4">Sjef Petersen: damn , nice fight Ben :)</Chat>
+<Score et="2195.2">Evan Hanson(1) lap=15 point=2 t=115.631 et=2195.188</Score>
+<Chat et="2202.2">Archie Gray: thx all Gr Martin</Chat>
+<Chat et="2203.2">Jonathan Mistry: for sure :)</Chat>
+<Sent et="2208.7">Archie Gray has left the game but vehicle has been stored in the garage</Sent>
+<Chat et="2211.8">Jonathan Mistry: congrats martin</Chat>
+<Score et="2216.2">Topi Keskinen(3) lap=16 point=0 t=137.061 et=2216.123</Score>
+<Score et="2219.1">Evan Hanson(1) lap=16 point=0 t=139.504 et=2219.061</Score>
+<Chat et="2222.3">Zach Evans: thanks :)</Chat>
+<Chat et="2236.6">Sjef Petersen: nice drive Martin</Chat>
+<Chat et="2262.8">Zach Evans: very hard last half of the race. my tires got worn pretty fast</Chat>
+<Chat et="2273.4">Sjef Petersen: have good night guys , cya</Chat>
+<Chat et="2279.0">Jonathan Mistry: lol I hardly used 6th gear</Chat>
+<Chat et="2280.2">Jonathan Mistry: xD</Chat>
+<Chat et="2280.4">Zach Evans: think I was pushing to hard at the first half</Chat>
+<Sent et="2283.0">Sjef Petersen has left the game but vehicle has been stored in the garage</Sent>
+<Sent et="2283.3">Oliver Baker has left the game but vehicle has been stored in the garage</Sent>
+<Chat et="2286.9">Zach Evans: good night</Chat>
+<Sent et="2288.2">Evan Hanson has left the game but vehicle has been stored in the garage</Sent>
+<Chat et="2288.6">Topi Keskinen: race was over at t2 when lost rear wing :(</Chat>
+<Chat et="2297.2">Jonathan Mistry: my warm up was first laps xD</Chat>
+<Chat et="2299.8">Zach Evans: to bad :(</Chat>
+<Chat et="2315.1">Topi Keskinen: had a 1:52 in me i&apos;m sure ;)</Chat>
+<Chat et="2326.6">Zach Evans: lol really?!</Chat>
+</Stream>
+<MostLapsCompleted>17</MostLapsCompleted>
+<Driver>
+<Name>Archie Gray</Name>
+<Connected>1</Connected>
+<VehFile>16F306.VEH</VehFile>
+<UpgradeCode>10000000 00000000</UpgradeCode>
+<VehName>Motoaki Ishikawa</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>16</CarNumber>
+<TeamName>07-09 SHION FORMULA LTD.</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>3</GridPos>
+<Position>2</Position>
+<ClassGridPos>3</ClassGridPos>
+<ClassPosition>2</ClassPosition>
+<Points>15</Points>
+<ClassPoints>15</ClassPoints>
+<LapRankIncludingDiscos>1</LapRankIncludingDiscos>
+<Lap num="1" p="5" et="40.0211" s1="57.7759" s2="56.9446" s3="22.6917" fuel="0.820">137.4121</Lap>
+<Lap num="2" p="4" et="177.4332" s1="41.6101" s2="59.5936" s3="22.5372" fuel="0.776">123.7409</Lap>
+<Lap num="3" p="4" et="301.1741" s1="41.8698" s2="54.9692" s3="22.5382" fuel="0.729">119.3773</Lap>
+<Lap num="4" p="4" et="420.5514" s1="41.8374" s2="55.6688" s3="22.5979" fuel="0.686">120.1041</Lap>
+<Lap num="5" p="4" et="540.6555" s1="41.7883" s2="55.0266" s3="22.4528" fuel="0.643">119.2677</Lap>
+<Lap num="6" p="4" et="659.9233" s1="41.8765" s2="55.2430" s3="23.0955" fuel="0.596">120.2150</Lap>
+<Lap num="7" p="4" et="780.1383" s1="41.8118" s2="56.1139" s3="22.6984" fuel="0.553">120.6241</Lap>
+<Lap num="8" p="3" et="900.7624" s1="41.9577" s2="54.9388" s3="22.2849" fuel="0.506">119.1813</Lap>
+<Lap num="9" p="3" et="1019.9437" s1="41.8374" s2="54.8966" s3="26.8123" fuel="0.463">123.5463</Lap>
+<Lap num="10" p="3" et="1143.4900" s1="41.7324" s2="55.2273" s3="22.3493" fuel="0.416">119.3089</Lap>
+<Lap num="11" p="3" et="1262.7988" s1="41.7841" s2="55.2107" s3="22.7078" fuel="0.373">119.7027</Lap>
+<Lap num="12" p="3" et="1382.5015" s1="41.8062" s2="55.1634" s3="22.1417" fuel="0.325">119.1114</Lap>
+<Lap num="13" p="2" et="1501.6128" s1="42.1812" s2="55.0653" s3="22.3787" fuel="0.282">119.6252</Lap>
+<Lap num="14" p="2" et="1621.2380" s1="41.7040" s2="55.3203" s3="22.3274" fuel="0.235">119.3517</Lap>
+<Lap num="15" p="2" et="1740.5897" s1="41.5232" s2="54.7451" s3="22.4569" fuel="0.192">118.7252</Lap>
+<Lap num="16" p="2" et="1859.3149" s1="42.7960" s2="54.6828" s3="22.5931" fuel="0.145">120.0718</Lap>
+<Lap num="17" p="2" et="1979.3868" s1="41.8511" s2="54.8317" s3="22.7131" fuel="0.102">119.3959</Lap>
+<BestLapTime>118.7252</BestLapTime>
+<FinishTime>2058.7615</FinishTime>
+<Laps>17</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="17">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Tom M. Hall</Name>
+<Connected>1</Connected>
+<VehFile>01F307.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Oliver Jarvis</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>1L</CarNumber>
+<TeamName>07-01 DHG TOM&apos;S</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>1</GridPos>
+<Position>7</Position>
+<ClassGridPos>1</ClassGridPos>
+<ClassPosition>7</ClassPosition>
+<Points>4</Points>
+<ClassPoints>4</ClassPoints>
+<LapRankIncludingDiscos>2</LapRankIncludingDiscos>
+<Lap num="1" p="1" et="40.0211" s1="46.6755" s2="56.8494" s3="22.6522" fuel="0.957">126.1771</Lap>
+<Lap num="2" p="1" et="166.1982" s1="42.3175" s2="55.4714" s3="22.5711" fuel="0.910">120.3600</Lap>
+<Lap num="3" p="1" et="286.5582" s1="41.4937" s2="55.3808" s3="22.3169" fuel="0.867">119.1914</Lap>
+<Lap num="4" p="1" et="405.7496" s1="42.2348" s2="55.2814" s3="22.5264" fuel="0.827">120.0426</Lap>
+<Lap num="5" p="1" et="525.7922" s1="41.7521" s2="55.2192" s3="22.8702" fuel="0.784">119.8415</Lap>
+<Lap num="6" p="1" et="645.6337" s1="42.1599" s2="55.3416" s3="22.6780" fuel="0.741">120.1795</Lap>
+<Lap num="7" p="1" et="765.8132" s1="42.0617" s2="54.9901" s3="22.6024" fuel="0.698">119.6542</Lap>
+<Lap num="8" p="2" et="885.4674" s1="41.6767" s2="59.4520" s3="23.4462" fuel="0.651">124.5749</Lap>
+<Lap num="9" p="2" et="1010.0424" s1="41.9974" s2="55.6552" s3="22.4668" fuel="0.612">120.1193</Lap>
+<Lap num="10" p="2" et="1130.1616" s1="41.6227" s2="55.1515" s3="23.0518" fuel="0.569">119.8260</Lap>
+<Lap num="11" p="2" et="1249.9877" s1="42.8742" s2="55.1942" s3="22.8089" fuel="0.529">120.8774</Lap>
+<Lap num="12" p="2" et="1370.8651" s1="42.0483" s2="54.9263" s3="22.2972" fuel="0.486">119.2719</Lap>
+<BestLapTime>119.1914</BestLapTime>
+<Laps>12</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Suspension</DNFReason>
+<ControlAndAids startLap="1" endLap="12">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Zach Evans</Name>
+<Connected>1</Connected>
+<VehFile>3F306_2007.VEH</VehFile>
+<UpgradeCode>15000000 00000000</UpgradeCode>
+<VehName>Roberto Streit</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>3</CarNumber>
+<TeamName>07-03 INGING MOTORSPORT</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>11</GridPos>
+<Position>1</Position>
+<ClassGridPos>11</ClassGridPos>
+<ClassPosition>1</ClassPosition>
+<Points>20</Points>
+<ClassPoints>20</ClassPoints>
+<LapRankIncludingDiscos>3</LapRankIncludingDiscos>
+<Lap num="1" p="3" et="40.0211" s1="52.3539" s2="55.6448" s3="22.5232" fuel="0.843">130.5218</Lap>
+<Lap num="2" p="3" et="170.5430" s1="41.8527" s2="55.3994" s3="22.4502" fuel="0.800">119.7023</Lap>
+<Lap num="3" p="2" et="290.2452" s1="42.3889" s2="55.5416" s3="22.2890" fuel="0.761">120.2195</Lap>
+<Lap num="4" p="2" et="410.4647" s1="41.9483" s2="55.3238" s3="22.3402" fuel="0.718">119.6123</Lap>
+<Lap num="5" p="2" et="530.0770" s1="41.8170" s2="56.1017" s3="22.3548" fuel="0.675">120.2735</Lap>
+<Lap num="6" p="2" et="650.3504" s1="41.8205" s2="55.4031" s3="22.4181" fuel="0.631">119.6417</Lap>
+<Lap num="7" p="2" et="769.9921" s1="41.9503" s2="55.1721" s3="22.5586" fuel="0.588">119.6810</Lap>
+<Lap num="8" p="1" et="889.6732" s1="41.8701" s2="55.3826" s3="22.7209" fuel="0.545">119.9735</Lap>
+<Lap num="9" p="1" et="1009.6467" s1="42.2173" s2="55.1745" s3="22.6508" fuel="0.502">120.0426</Lap>
+<Lap num="10" p="1" et="1129.6892" s1="41.8203" s2="55.3497" s3="22.8513" fuel="0.459">120.0213</Lap>
+<Lap num="11" p="1" et="1249.7104" s1="42.6233" s2="55.4770" s3="22.4602" fuel="0.416">120.5605</Lap>
+<Lap num="12" p="1" et="1370.2710" s1="41.9227" s2="55.1716" s3="22.2617" fuel="0.373">119.3561</Lap>
+<Lap num="13" p="1" et="1489.6271" s1="41.7863" s2="55.9762" s3="22.5324" fuel="0.329">120.2949</Lap>
+<Lap num="14" p="1" et="1609.9219" s1="42.1470" s2="55.9459" s3="22.4242" fuel="0.286">120.5171</Lap>
+<Lap num="15" p="1" et="1730.4390" s1="42.1881" s2="55.5917" s3="22.3778" fuel="0.243">120.1576</Lap>
+<Lap num="16" p="1" et="1850.5966" s1="42.1523" s2="54.9114" s3="22.2956" fuel="0.200">119.3593</Lap>
+<Lap num="17" p="1" et="1969.9559" s1="42.1447" s2="55.2251" s3="22.3365" fuel="0.157">119.7063</Lap>
+<BestLapTime>119.3561</BestLapTime>
+<FinishTime>2049.6411</FinishTime>
+<Laps>17</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="17">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Haruaki Gotou</Name>
+<Connected>1</Connected>
+<VehFile>01F307.VEH</VehFile>
+<UpgradeCode>21000000 00000000</UpgradeCode>
+<VehName>Oliver Jarvis</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>1L</CarNumber>
+<TeamName>07-01 DHG TOM&apos;S</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>12</GridPos>
+<Position>10</Position>
+<ClassGridPos>12</ClassGridPos>
+<ClassPosition>10</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>4</LapRankIncludingDiscos>
+<Lap num="1" p="7" et="40.0211" s1="62.8222" s2="57.1277" s3="22.4235" fuel="0.820">142.3733</Lap>
+<Lap num="2" p="5" et="182.3944" s1="41.9473" s2="55.1314" s3="22.3522" fuel="0.776">119.4309</Lap>
+<Lap num="3" p="5" et="301.8253" s1="42.1685" s2="55.1790" s3="22.4227" fuel="0.733">119.7702</Lap>
+<Lap num="4" p="5" et="421.5955" s1="42.1305" s2="55.0880" s3="22.3431" fuel="0.686">119.5617</Lap>
+<BestLapTime>119.4309</BestLapTime>
+<Laps>4</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="4">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Jamie Norman</Name>
+<Connected>1</Connected>
+<VehFile>01F307.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Oliver Jarvis</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>1L</CarNumber>
+<TeamName>07-01 DHG TOM&apos;S</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>5</GridPos>
+<Position>9</Position>
+<ClassGridPos>5</ClassGridPos>
+<ClassPosition>9</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>5</LapRankIncludingDiscos>
+<Lap num="1" p="2" et="40.0211" s1="48.4479" s2="56.6494" s3="23.1839" fuel="0.949">128.2812</Lap>
+<Lap num="2" p="2" et="168.3023" s1="42.0848" s2="56.1849" s3="23.2976" fuel="0.902">121.5672</Lap>
+<Lap num="3" p="3" et="289.8695" s1="43.0062" s2="56.4185" s3="22.8773" fuel="0.851">122.3021</Lap>
+<Lap num="4" p="3" et="412.1716" s1="41.6953" s2="56.9247" s3="23.0152" fuel="0.804">121.6352</Lap>
+<Lap num="5" p="3" et="533.8068" s1="42.0243" s2="55.7882" s3="22.8628" fuel="0.757">120.6753</Lap>
+<Lap num="6" p="3" et="654.4821" s1="41.9620" s2="56.5157" s3="22.9358" fuel="0.710">121.4135</Lap>
+<Lap num="7" p="3" et="775.8956" s1="41.8985" s2="56.2976" s3="22.9013" fuel="0.663">121.0974</Lap>
+<BestLapTime>120.6753</BestLapTime>
+<Laps>7</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>DNF</DNFReason>
+<ControlAndAids startLap="1" endLap="7">PlayerControl</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Jonathan Mistry</Name>
+<Connected>1</Connected>
+<VehFile>01F307.VEH</VehFile>
+<UpgradeCode>04000000 00000000</UpgradeCode>
+<VehName>Oliver Jarvis</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>1L</CarNumber>
+<TeamName>07-01 DHG TOM&apos;S</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>13</GridPos>
+<Position>3</Position>
+<ClassGridPos>13</ClassGridPos>
+<ClassPosition>3</ClassPosition>
+<Points>12</Points>
+<ClassPoints>12</ClassPoints>
+<LapRankIncludingDiscos>6</LapRankIncludingDiscos>
+<Lap num="1" p="10" et="40.0211" s1="65.2725" s2="58.7919" s3="24.2033" fuel="0.796">148.2677</Lap>
+<Lap num="2" p="7" et="188.2888" s1="43.8805" s2="57.3875" s3="23.3438" fuel="0.753">124.6119</Lap>
+<Lap num="3" p="6" et="312.9007" s1="43.4894" s2="57.1723" s3="23.0567" fuel="0.710">123.7184</Lap>
+<Lap num="4" p="6" et="436.6191" s1="43.2682" s2="57.1702" s3="23.9699" fuel="0.663">124.4083</Lap>
+<Lap num="5" p="5" et="561.0273" s1="43.6670" s2="57.0080" s3="22.9713" fuel="0.620">123.6462</Lap>
+<Lap num="6" p="5" et="684.6736" s1="42.9744" s2="56.7190" s3="23.0352" fuel="0.576">122.7285</Lap>
+<Lap num="7" p="6" et="807.4021" s1="42.9457" s2="63.0944" s3="22.9147" fuel="0.533">128.9548</Lap>
+<Lap num="8" p="5" et="936.3569" s1="43.1119" s2="56.3047" s3="22.7250" fuel="0.490">122.1416</Lap>
+<Lap num="9" p="5" et="1058.4984" s1="43.0219" s2="57.0631" s3="23.1748" fuel="0.447">123.2597</Lap>
+<Lap num="10" p="5" et="1181.7582" s1="42.7613" s2="56.7256" s3="23.0791" fuel="0.404">122.5660</Lap>
+<Lap num="11" p="5" et="1304.3242" s1="42.6638" s2="56.8471" s3="22.7383" fuel="0.361">122.2491</Lap>
+<Lap num="12" p="5" et="1426.5734" s1="42.7501" s2="56.2872" s3="22.6224" fuel="0.318">121.6596</Lap>
+<Lap num="13" p="4" et="1548.2330" s1="42.4680" s2="56.4997" s3="23.1761" fuel="0.275">122.1438</Lap>
+<Lap num="14" p="4" et="1670.3768" s1="43.5091" s2="56.7129" s3="22.8202" fuel="0.231">123.0422</Lap>
+<Lap num="15" p="4" et="1793.4191" s1="42.7068" s2="56.0438" s3="22.7422" fuel="0.188">121.4928</Lap>
+<Lap num="16" p="4" et="1914.9119" s1="42.3087" s2="55.8006" s3="23.0194" fuel="0.145">121.1287</Lap>
+<Lap num="17" p="3" et="2036.0405" s1="42.4972" s2="57.6101" s3="22.5886" fuel="0.102">122.6960</Lap>
+<BestLapTime>121.1287</BestLapTime>
+<FinishTime>2118.7153</FinishTime>
+<Laps>17</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="17">PlayerControl,Clutch,AutoLift,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Hiromitsu Kishimoto</Name>
+<Connected>1</Connected>
+<VehFile>01F307.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Oliver Jarvis</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>1L</CarNumber>
+<TeamName>07-01 DHG TOM&apos;S</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>2</GridPos>
+<Position>11</Position>
+<ClassGridPos>2</ClassGridPos>
+<ClassPosition>11</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>7</LapRankIncludingDiscos>
+<Lap num="1" p="10" et="40.0211" s1="62.5529" s2="59.0586" s3="22.4178" fuel="0.706">144.0293</Lap>
+<Lap num="2" p="6" et="184.0504" s1="42.8906" s2="56.3547" s3="22.4718" fuel="0.659">121.7171</Lap>
+<BestLapTime>121.7171</BestLapTime>
+<Laps>2</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Accident</DNFReason>
+<ControlAndAids startLap="1" endLap="2">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Sjef Petersen</Name>
+<Connected>1</Connected>
+<VehFile>10F307.VEH</VehFile>
+<UpgradeCode>25000000 00000000</UpgradeCode>
+<VehName>Kodai Tsukakoshi</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>10</CarNumber>
+<TeamName>07-04 Honda Team Real</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>9</GridPos>
+<Position>4</Position>
+<ClassGridPos>9</ClassGridPos>
+<ClassPosition>4</ClassPosition>
+<Points>10</Points>
+<ClassPoints>10</ClassPoints>
+<LapRankIncludingDiscos>8</LapRankIncludingDiscos>
+<Lap num="1" p="10" et="40.0211" s1="68.3505" s2="57.8559" s3="23.4177" fuel="0.910">149.6241</Lap>
+<Lap num="2" p="8" et="189.6453" s1="43.4930" s2="56.5858" s3="23.8339" fuel="0.871">123.9128</Lap>
+<Lap num="3" p="7" et="313.5580" s1="43.4620" s2="56.6548" s3="23.5529" fuel="0.827">123.6698</Lap>
+<Lap num="4" p="7" et="437.2278" s1="43.2174" s2="56.9117" s3="23.7697" fuel="0.788">123.8988</Lap>
+<Lap num="5" p="6" et="561.1266" s1="43.6476" s2="57.1066" s3="23.1862" fuel="0.745">123.9405</Lap>
+<Lap num="6" p="6" et="685.0671" s1="43.0672" s2="58.6230" s3="22.7332" fuel="0.706">124.4235</Lap>
+<Lap num="7" p="5" et="809.4906" s1="42.8731" s2="56.5315" s3="22.8007" fuel="0.663">122.2053</Lap>
+<Lap num="8" p="4" et="931.6959" s1="43.4767" s2="56.8106" s3="22.5399" fuel="0.620">122.8271</Lap>
+<Lap num="9" p="4" et="1054.5231" s1="43.3213" s2="56.4751" s3="22.7041" fuel="0.576">122.5004</Lap>
+<Lap num="10" p="4" et="1177.0234" s1="43.5533" s2="56.3675" s3="23.2833" fuel="0.533">123.2041</Lap>
+<Lap num="11" p="4" et="1300.2275" s1="43.1165" s2="56.3210" s3="22.7233" fuel="0.494">122.1609</Lap>
+<Lap num="12" p="4" et="1422.3884" s1="42.6558" s2="56.5062" s3="22.7024" fuel="0.451">121.8643</Lap>
+<Lap num="13" p="3" et="1544.2527" s1="42.7995" s2="56.6208" s3="22.6767" fuel="0.408">122.0970</Lap>
+<Lap num="14" p="3" et="1666.3496" s1="43.4171" s2="56.5396" s3="23.8023" fuel="0.369">123.7591</Lap>
+<Lap num="15" p="3" et="1790.1086" s1="43.1011" s2="57.0464" s3="23.1699" fuel="0.325">123.3174</Lap>
+<Lap num="16" p="3" et="1913.4260" s1="42.9805" s2="56.2803" s3="22.7443" fuel="0.282">122.0051</Lap>
+<Lap num="17" p="4" et="2035.4312" s1="42.9266" s2="59.6296" s3="22.7567" fuel="0.239">125.3129</Lap>
+<BestLapTime>121.8643</BestLapTime>
+<FinishTime>2120.7229</FinishTime>
+<Laps>17</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="17">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Oliver Baker</Name>
+<Connected>1</Connected>
+<VehFile>3F306_2007.VEH</VehFile>
+<UpgradeCode>18000000 00000000</UpgradeCode>
+<VehName>Roberto Streit</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>3</CarNumber>
+<TeamName>07-03 INGING MOTORSPORT</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>10</GridPos>
+<Position>8</Position>
+<ClassGridPos>10</ClassGridPos>
+<ClassPosition>8</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>9</LapRankIncludingDiscos>
+<Lap num="1" p="9" et="40.0211" s1="55.1231" s2="60.3775" s3="28.5640" fuel="0.847" pit="1">144.0646</Lap>
+<Lap num="2" p="10" et="184.0857" s1="68.2324" s2="57.1399" s3="23.2015" fuel="0.800">148.5737</Lap>
+<Lap num="3" p="8" et="332.6594" s1="51.4400" s2="57.9268" s3="22.9356" fuel="0.757">132.3024</Lap>
+<Lap num="4" p="8" et="464.9619" s1="44.6103" s2="57.2549" s3="24.5169" fuel="0.714">126.3821</Lap>
+<Lap num="5" p="7" et="591.3439" s1="44.2835" s2="61.0237" s3="23.1991" fuel="0.671">128.5064</Lap>
+<Lap num="6" p="7" et="719.8503" s1="42.6566" s2="62.3547" s3="23.1810" fuel="0.627">128.1923</Lap>
+<Lap num="7" p="7" et="848.0427" s1="42.7295" s2="56.4387" s3="22.7589" fuel="0.584">121.9271</Lap>
+<Lap num="8" p="6" et="969.9697" s1="44.0766" s2="66.9898" s3="23.3828" fuel="0.541">134.4492</Lap>
+<Lap num="9" p="8" et="1104.4189" s1="70.5975" s2="103.5715" s3="40.6532" fuel="0.502" pit="1">214.8222</Lap>
+<BestLapTime>121.9271</BestLapTime>
+<Laps>9</Laps>
+<Pitstops>2</Pitstops>
+<FinishStatus>DNF</FinishStatus>
+<DNFReason>Suspension</DNFReason>
+<ControlAndAids startLap="1" endLap="9">PlayerControl,Clutch</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Evan Hanson</Name>
+<Connected>1</Connected>
+<VehFile>3F306_2007.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Roberto Streit</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>3</CarNumber>
+<TeamName>07-03 INGING MOTORSPORT</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>8</GridPos>
+<Position>6</Position>
+<ClassGridPos>8</ClassGridPos>
+<ClassPosition>6</ClassPosition>
+<Points>6</Points>
+<ClassPoints>6</ClassPoints>
+<LapRankIncludingDiscos>10</LapRankIncludingDiscos>
+<Lap num="1" p="4" et="40.0211" s1="55.6742" s2="56.8754" s3="22.6461" fuel="0.843">135.1957</Lap>
+<Lap num="2" p="9" et="175.2168" s1="43.0783" s2="68.5212" s3="27.3069" fuel="0.800" pit="1">138.9065</Lap>
+<Lap num="3" p="9" et="314.1233" s1="70.1359" s2="58.7711" s3="22.7876" fuel="0.757">151.6946</Lap>
+<Lap num="4" p="9" et="465.8179" s1="43.5154" s2="67.1124" s3="22.7937" fuel="0.710">133.4215</Lap>
+<Lap num="5" p="8" et="599.2394" s1="42.9680" s2="56.2593" s3="23.1306" fuel="0.667">122.3579</Lap>
+<Lap num="6" p="8" et="721.5974" s1="45.3095" s2="58.0365" s3="23.5678" fuel="0.627">126.9138</Lap>
+<Lap num="7" p="8" et="848.5112" s1="43.3972" s2="56.3265" s3="23.1801" fuel="0.584">122.9037</Lap>
+<Lap num="8" p="7" et="971.4149" s1="44.0531" s2="65.7943" s3="23.4338" fuel="0.541">133.2812</Lap>
+<Lap num="9" p="6" et="1104.6962" s1="48.9154" s2="62.1371" s3="24.1155" fuel="0.502">135.1680</Lap>
+<Lap num="10" p="6" et="1239.8641" s1="44.4635" s2="56.9946" s3="23.4587" fuel="0.459">124.9168</Lap>
+<Lap num="11" p="6" et="1364.7810" s1="45.1881" s2="59.3494" s3="22.6254" fuel="0.420">127.1630</Lap>
+<Lap num="12" p="6" et="1491.9440" s1="62.7217" s2="59.9098" s3="28.8271" fuel="0.376" pit="1">151.4587</Lap>
+<Lap num="13" p="6" et="1643.4026" s1="71.1923" s2="62.4636" s3="23.6823" fuel="0.333">157.3382</Lap>
+<Lap num="14" p="5" et="1800.7407" s1="44.2312" s2="66.6408" s3="33.4568" fuel="0.290">144.3288</Lap>
+<Lap num="15" p="6" et="1945.0696" s1="48.9447" s2="61.9751" s3="23.5678" fuel="0.251">134.4877</Lap>
+<Lap num="16" p="6" et="2079.5571" s1="44.3206" s2="71.3108" s3="23.8728" fuel="0.208">139.5042</Lap>
+<BestLapTime>122.3579</BestLapTime>
+<FinishTime>2179.0400</FinishTime>
+<Laps>16</Laps>
+<Pitstops>2</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="16">PlayerControl</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Topi Keskinen</Name>
+<Connected>1</Connected>
+<VehFile>14F306.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Hironobu Yasuda</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>14</CarNumber>
+<TeamName>07-06 ThreeBond Racing</TeamName>
+<isPlayer>1</isPlayer>
+<GridPos>7</GridPos>
+<Position>5</Position>
+<ClassGridPos>7</ClassGridPos>
+<ClassPosition>5</ClassPosition>
+<Points>8</Points>
+<ClassPoints>8</ClassPoints>
+<LapRankIncludingDiscos>11</LapRankIncludingDiscos>
+<Lap num="1" p="11" et="40.0211" s1="69.1741" s2="78.5359" s3="31.7650" fuel="0.851" pit="1">179.4750</Lap>
+<Lap num="2" p="11" et="219.4961" s1="103.4776" s2="57.8781" s3="23.0444" fuel="0.957">184.4001</Lap>
+<Lap num="3" p="10" et="403.8962" s1="44.9750" s2="59.2557" s3="23.9168" fuel="0.918">128.1475</Lap>
+<Lap num="4" p="10" et="532.0438" s1="44.4802" s2="58.1159" s3="36.0871" fuel="0.875">138.6832</Lap>
+<Lap num="5" p="9" et="670.7270" s1="44.7395" s2="57.6706" s3="23.2879" fuel="0.831">125.6980</Lap>
+<Lap num="6" p="9" et="796.4250" s1="43.3949" s2="58.3383" s3="23.3014" fuel="0.788">125.0346</Lap>
+<Lap num="7" p="9" et="921.4596" s1="43.6788" s2="59.6309" s3="24.3441" fuel="0.745">127.6539</Lap>
+<Lap num="8" p="8" et="1049.1135" s1="44.2336" s2="57.0736" s3="23.1510" fuel="0.706">124.4582</Lap>
+<Lap num="9" p="7" et="1173.5718" s1="43.2507" s2="57.7885" s3="24.4749" fuel="0.663">125.5142</Lap>
+<Lap num="10" p="7" et="1299.0859" s1="43.1548" s2="58.9549" s3="22.8443" fuel="0.620">124.9540</Lap>
+<Lap num="11" p="7" et="1424.0399" s1="44.6553" s2="58.2381" s3="23.0070" fuel="0.576">125.9005</Lap>
+<Lap num="12" p="7" et="1549.9404" s1="43.7062" s2="56.7483" s3="23.4263" fuel="0.537">123.8808</Lap>
+<Lap num="13" p="5" et="1673.8213" s1="44.0111" s2="58.8779" s3="23.6845" fuel="0.494">126.5734</Lap>
+<Lap num="14" p="6" et="1800.3947" s1="43.4381" s2="67.1400" s3="36.2755" fuel="0.451">146.8536</Lap>
+<Lap num="15" p="5" et="1947.2482" s1="46.5743" s2="62.0706" s3="23.1690" fuel="0.412">131.8139</Lap>
+<Lap num="16" p="5" et="2079.0620" s1="43.8106" s2="63.8868" s3="29.3634" fuel="0.373">137.0608</Lap>
+<BestLapTime>123.8808</BestLapTime>
+<FinishTime>2176.1016</FinishTime>
+<Laps>16</Laps>
+<Pitstops>1</Pitstops>
+<FinishStatus>Finished Normally</FinishStatus>
+<ControlAndAids startLap="1" endLap="16">PlayerControl,Clutch,AutoBlip</ControlAndAids>
+</Driver>
+<Driver>
+<Name>Edgar Estévez Guajardo</Name>
+<Connected>1</Connected>
+<VehFile>10F307.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Kodai Tsukakoshi</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>10</CarNumber>
+<TeamName>07-04 Honda Team Real</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>4</GridPos>
+<Position>12</Position>
+<ClassGridPos>4</ClassGridPos>
+<ClassPosition>12</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>12</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DQ</FinishStatus>
+</Driver>
+<Driver>
+<Name>Sabahudin Smerkolj</Name>
+<Connected>1</Connected>
+<VehFile>14F306.VEH</VehFile>
+<UpgradeCode>00000000 00000000</UpgradeCode>
+<VehName>Hironobu Yasuda</VehName>
+<CarType>JF3_2007</CarType>
+<CarClass>JF3_2007</CarClass>
+<CarNumber>14</CarNumber>
+<TeamName>07-06 ThreeBond Racing</TeamName>
+<isPlayer>0</isPlayer>
+<GridPos>6</GridPos>
+<Position>13</Position>
+<ClassGridPos>6</ClassGridPos>
+<ClassPosition>13</ClassPosition>
+<Points>0</Points>
+<ClassPoints>0</ClassPoints>
+<LapRankIncludingDiscos>13</LapRankIncludingDiscos>
+<Laps>0</Laps>
+<Pitstops>0</Pitstops>
+<FinishStatus>DQ</FinishStatus>
+</Driver>
+</Race>
+</RaceResults>
+</rFactorXML>
