@@ -13,8 +13,7 @@ Dyno presently supports files spat out by a number of games:
 * **Race07Parser** parses results from RACE 07, GTR: Evolution, and
   STCC: The Game
 * **GTR2Parser** parses results from GTR2.
-* **RFactorParser** parses results from rFactor (and mods), and ARCA (coming
-  very soon).
+* **RFactorParser** parses results from rFactor (and mods), and ARCA.
 
 Dyno requires the iniparse gem (available via `gem install iniparse` or on
 [GitHub][iniparse]) for the Race 07 and GTR2 parsers, and libxml-ruby for
