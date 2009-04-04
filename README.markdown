@@ -65,4 +65,4 @@ Dyno is distributed under the MIT/X11 License.
 > IN THE SOFTWARE.
 
 [dyno-wp]:  http://en.wikipedia.org/wiki/Dynamometer "Wikipedia"
-[iniparse]: http://github.com/anthonyw/iniparse "IniParse on GitHub"
+[iniparse]: http://github.com/antw/iniparse "IniParse on GitHub"
