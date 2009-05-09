@@ -7,10 +7,14 @@ module Dyno::Parsers
     ##
     # Takes a file path and parses it.
     #
-    # @param [String] filename The path to the results file.
+    # @param [String] filename
+    #   The path to the results file.
+    # @param [Symbol] mode
+    #   The order in which competitors should be ordered. Race mode uses the
+    #   normal means, while :lap will order by their fastest lap.
     #
-    def self.parse_file( filename )
-      parse( IniParse.open( filename ) )
+    def self.parse_file( filename, mode = :race )
+      parse( IniParse.open( filename ), mode )
     end
 
     ##
@@ -20,8 +24,8 @@ module Dyno::Parsers
     # @param  [IniParse::Document] results The results.
     # @return [Dyno::Event]
     #
-    def self.parse( results )
-      new( results ).parse
+    def self.parse( results, mode = :race )
+      new( results, mode ).parse
     end
 
     ##
@@ -42,8 +46,8 @@ module Dyno::Parsers
     #
     # @param [IniParse::Document] results The results.
     #
-    def initialize( results )
-      @raw = results
+    def initialize( results, mode = :race )
+      @raw, @mode = results, mode
     end
 
     ##
@@ -105,9 +109,16 @@ module Dyno::Parsers
         end
       end
 
-      # Sort finished competitors by their race time, lowest (P1) first.
-      finished_competitors = finished_competitors.sort_by do |c|
-        [ - c.laps, c.race_time ]
+      if @mode == :race
+        # Sort finished competitors by their race time, lowest (P1) first.
+        finished_competitors = finished_competitors.sort_by do |c|
+          [ - c.laps, c.race_time ]
+        end
+      else
+        # Sort finished competitors by their best lap time.
+        finished_competitors = finished_competitors.sort_by do |c|
+          c.best_lap
+        end
       end
 
       # ... and DNF'ed competitors by how many laps they've done.

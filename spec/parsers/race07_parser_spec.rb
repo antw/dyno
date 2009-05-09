@@ -119,27 +119,6 @@ describe Dyno::Parsers::Race07Parser do
       ]
     end
 
-    it 'should correctly sort drivers by their finishing time, and assign their position' do
-      event = Dyno::Parsers::Race07Parser.parse_file(
-        'spec/fixtures/race07/full.ini'
-      )
-
-      event.competitors[0].name.should == 'Gabriel Lloyd'
-      event.competitors[0].position.should == 1
-
-      event.competitors[1].name.should == 'Jerry Lalich'
-      event.competitors[1].position.should == 2
-
-      event.competitors[2].name.should == 'Mark Voss'
-      event.competitors[2].position.should == 3
-
-      event.competitors[3].name.should == 'Corey Ball'
-      event.competitors[3].position.should == 4
-
-      event.competitors[4].name.should == 'Reino Lintula'
-      event.competitors[4].position.should == 5
-    end
-
     it 'should set a competitor as "did not finish" when necessary' do
       Dyno::Parsers::Race07Parser.parse_file(
         'spec/fixtures/race07/single_driver_dnf.ini'
@@ -151,5 +130,54 @@ describe Dyno::Parsers::Race07Parser do
         'spec/fixtures/race07/single_driver_dsq.ini'
       ).competitors[0].should be_dsq
     end
+
+    describe 'when in race mode' do
+      it 'should sort drivers by their finishing time, and assign '\
+         'their position' do
+        event = Dyno::Parsers::Race07Parser.parse_file(
+          'spec/fixtures/race07/full.ini'
+        )
+
+        event.competitors[0].name.should == 'Gabriel Lloyd'
+        event.competitors[0].position.should == 1
+
+        event.competitors[1].name.should == 'Jerry Lalich'
+        event.competitors[1].position.should == 2
+
+        event.competitors[2].name.should == 'Mark Voss'
+        event.competitors[2].position.should == 3
+
+        event.competitors[3].name.should == 'Corey Ball'
+        event.competitors[3].position.should == 4
+
+        event.competitors[4].name.should == 'Reino Lintula'
+        event.competitors[4].position.should == 5
+      end
+    end
+
+    describe 'when in lap mode' do
+      it 'should sort drivers by their fastest lap, and assign their ' \
+         'position' do
+        event = Dyno::Parsers::Race07Parser.parse_file(
+          'spec/fixtures/race07/full.ini', :lap
+        )
+
+        event.competitors[0].name.should == 'Jerry Lalich'
+        event.competitors[0].position.should == 1
+
+        event.competitors[1].name.should == 'Gabriel Lloyd'
+        event.competitors[1].position.should == 2
+
+        event.competitors[2].name.should == 'Mark Voss'
+        event.competitors[2].position.should == 3
+
+        event.competitors[3].name.should == 'Corey Ball'
+        event.competitors[3].position.should == 4
+
+        event.competitors[4].name.should == 'Reino Lintula'
+        event.competitors[4].position.should == 5
+      end
+    end
+
   end
 end
