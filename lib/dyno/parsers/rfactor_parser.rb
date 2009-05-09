@@ -9,8 +9,7 @@ module Dyno::Parsers
     # @param [String] filename The path to the results file.
     #
     def self.parse_file( filename, mode = nil )
-      xmlparser = LibXML::XML::Parser.new
-      xmlparser.file = filename
+      xmlparser = LibXML::XML::Parser.file( filename )
       parse( xmlparser.parse )
     end
 
